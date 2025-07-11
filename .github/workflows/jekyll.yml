@@ -1,35 +1,38 @@
-name: Build and Deploy Jekyll Site
+name: Deploy with GitHub Pages
 
 on:
   push:
     branches:
-      - main
+      - main  # or your default branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  jekyll:
+  build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.4'
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Install Jekyll and remote theme
-        run: |
-          gem install jekyll
-          gem install jekyll-remote-theme
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
 
-      - name: Build site with Jekyll
-        run:  jekyll build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          enable_jekyll: false  # ✅ prevents GitHub from reprocessing the site
-          publish_branch: gh-pages
+        id: deployment
+        uses: actions/deploy-pages@v4
