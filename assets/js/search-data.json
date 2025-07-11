@@ -14,110 +14,103 @@
     "relUrl": "/"
   },"2": {
     "doc": "0. Abstract",
-    "title": "Abstract",
-    "content": "This is the abstract of the paper. ",
-    "url": "/fallacytag/pages/00-abstract/#abstract",
-    
-    "relUrl": "/pages/00-abstract/#abstract"
-  },"3": {
-    "doc": "0. Abstract",
     "title": "0. Abstract",
-    "content": " ",
+    "content": "FallacyTag is a lightweight reasoning aid designed to surface flawed argument structure in online discourse—gently, interpretably, and without moralizing. Built around modern LLM capabilities and constrained design, it offers sentence-level feedback in the form of informal fallacy cues: not judgments, but structural prompts. This paper presents the concept, sketches its architecture, explores its feasibility across technical, social, and conceptual dimensions, and proposes a framework for deployment in varied modalities (text, audio, video). The core bet is simple: by making reasoning structure visible—even imperfectly—we can foster better reflection without requiring cultural revolutions or cognitive overhauls. FallacyTag isn’t a moderator or a fact-checker. It’s a nudge toward clarity, designed to fit where logic matters and tone is fragile. The paper is exploratory in form, rigorous in ambition, and deliberately uneven in tone. It is meant as a public proposal—for critique, adaptation, or reinvention. ",
     "url": "/fallacytag/pages/00-abstract/",
     
     "relUrl": "/pages/00-abstract/"
-  },"4": {
+  },"3": {
     "doc": "1. What You Are Reading",
     "title": "1. What You Are Reading",
-    "content": "Coming soon… . ",
+    "content": "This is a civic design essay. It’s not a pitch, white paper, or research submission. It’s an exploration—part concept proposal, part system sketch, part cultural provocation. The core idea is technical: a lightweight, modular tool to highlight flawed reasoning in digital conversation. But the surrounding context is human. Tone, trust, and interpretation matter as much as model performance. So this paper moves between domains—language models, argument theory, pedagogy, and UX—and switches tone often. Some sections are nerdy. Others are more playful, skeptical, or intentionally jarring. If that feels uneven, it’s on purpose. Structural humility isn’t just a design constraint—it’s a writing constraint, too. This is for builders, educators, interface designers, and critics. You don’t have to agree. But if it makes you pause, test, or reframe, then it’s doing its job. ",
     "url": "/fallacytag/pages/01-what-you-are-reading/",
     
     "relUrl": "/pages/01-what-you-are-reading/"
-  },"5": {
+  },"4": {
     "doc": "2. What’s Avoided at Scale",
     "title": "2. What’s Avoided at Scale",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/02-why-online-argument-rarely-builds/",
     
     "relUrl": "/pages/02-why-online-argument-rarely-builds/"
-  },"6": {
+  },"5": {
     "doc": "3. Scaffolded Intelligence",
     "title": "3. Scaffolded Intelligence",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/03-scaffolded-intelligence/",
     
     "relUrl": "/pages/03-scaffolded-intelligence/"
-  },"7": {
+  },"6": {
     "doc": "4. Introducing FallacyTag",
     "title": "4. Introducing FallacyTag",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/04-introducing-fallacytag/",
     
     "relUrl": "/pages/04-introducing-fallacytag/"
-  },"8": {
+  },"7": {
     "doc": "5. Modalities and Fit",
     "title": "5. Modalities and Fit",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/05-modalities-and-fit/",
     
     "relUrl": "/pages/05-modalities-and-fit/"
-  },"9": {
+  },"8": {
     "doc": "6. How It Works",
     "title": "6. How It Works",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/06-how-it-works/",
     
     "relUrl": "/pages/06-how-it-works/"
-  },"10": {
+  },"9": {
     "doc": "7. Is FallacyTag Feasible?",
     "title": "7. Is FallacyTag Feasible?",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/07-feasibility/",
     
     "relUrl": "/pages/07-feasibility/"
-  },"11": {
+  },"10": {
     "doc": "8. Staying Honest at the Edges",
     "title": "8. Staying Honest at the Edges",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/08-constraints/",
     
     "relUrl": "/pages/08-constraints/"
-  },"12": {
+  },"11": {
     "doc": "9. Conditional Case - When This Is Worth Building",
     "title": "9. Conditional Case: When This Is Worth Building",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/09-worth-building/#9-conditional-case-when-this-is-worth-building",
     
     "relUrl": "/pages/09-worth-building/#9-conditional-case-when-this-is-worth-building"
-  },"13": {
+  },"12": {
     "doc": "9. Conditional Case - When This Is Worth Building",
     "title": "9. Conditional Case - When This Is Worth Building",
     "content": " ",
     "url": "/fallacytag/pages/09-worth-building/",
     
     "relUrl": "/pages/09-worth-building/"
-  },"14": {
+  },"13": {
     "doc": "10. Call to Explore",
     "title": "10. Call to Explore",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/10-call-to-explore/",
     
     "relUrl": "/pages/10-call-to-explore/"
-  },"15": {
+  },"14": {
     "doc": "Appendix A – Veritasium Logic Check",
     "title": "Appendix A – Veritasium Logic Check",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/appendix-a/",
     
     "relUrl": "/pages/appendix-a/"
-  },"16": {
+  },"15": {
     "doc": "Appendix B – Reddit CMV Logic Check",
     "title": "Appendix B – Reddit CMV Logic Check",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/appendix-b/",
     
     "relUrl": "/pages/appendix-b/"
-  },"17": {
+  },"16": {
     "doc": "References",
     "title": "References",
     "content": "Coming soon… . ",
