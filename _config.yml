@@ -1,0 +1,23 @@
+title: FallacyTag
+description: FallacyTag is lightweight reasoning aid that surfaces flaws in argument structure.
+theme: just-the-docs
+color_scheme: light
+url: https://coherentdrift.github.io/
+baseurl: /fallacytag
+
+aux_links:
+  Substack: https://coherentdrift.substack.com
+  GitHub: https://github.com/coherentdrift/fallacytag
+
+collections:
+  pages:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  logo: "/assets/images/logo.png"
+  show_sidebar: true
+  collections:
+    pages:
+      nav_exclude: false
+      nav_fold: false 
