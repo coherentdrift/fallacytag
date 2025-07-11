@@ -15,7 +15,7 @@ collections:
     output: true
 
 just_the_docs:
-  logo: "/assets/images/logo.png"
+  logo: "/fallacytag/assets/images/logo.png"
   show_sidebar: true
   collections:
     pages:
