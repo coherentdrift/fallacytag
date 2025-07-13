@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Appendix B – Reddit CMV Logic Check
-navorder: 13
+nav_order: 13
 ---
 
-# Appendix B – Reddit CMV Logic Check
+## Appendix B – Reddit CMV Logic Check
 
 Coming soon…

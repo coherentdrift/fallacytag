@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 10. Call to Explore
-navorder: 11
+nav_order: 11
 ---
-# 10. Call to Explore
+## 10. Call to Explore
 
 Coming soon…
