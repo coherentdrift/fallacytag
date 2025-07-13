@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "9. Conditional Case - When This Is Worth Building"
-navorder: 10
+nav_order: 10
 ---
 
-# 9. Conditional Case: When This Is Worth Building
+## 9. Conditional Case: When This Is Worth Building
 
 Coming soon…

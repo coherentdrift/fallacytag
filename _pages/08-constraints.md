@@ -1,9 +1,9 @@
 ---
 layout: default
 title: 8. Staying Honest at the Edges
-navorder: 9
+nav_order: 9
 ---
 
-# 8. Staying Honest at the Edges
+## 8. Staying Honest at the Edges
 
 Coming soon…

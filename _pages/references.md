@@ -1,9 +1,9 @@
 ---
 layout: default
 title: References
-navorder: 14
+nav_order: 14
 ---
 
-# References
+## References
 
 Coming soon…

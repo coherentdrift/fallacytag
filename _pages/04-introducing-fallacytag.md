@@ -1,9 +1,9 @@
 ---
 layout: default
 title: 4. Introducing FallacyTag
-navorder: 5
+nav_order: 5
 ---
 
-# 4. Introducing FallacyTag
+## 4. Introducing FallacyTag
 
 Coming soon…

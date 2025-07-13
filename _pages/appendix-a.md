@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Appendix A – Veritasium Logic Check
-navorder: 12
+nav_order: 12
 ---
-# Appendix A – Veritasium Logic Check
+## Appendix A – Veritasium Logic Check
 
 Coming soon…

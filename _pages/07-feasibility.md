@@ -1,9 +1,9 @@
 ---
 layout: default
 title: 7. Is FallacyTag Feasible?
-navorder: 8
+nav_order: 8
 ---
 
-# 7. Is FallacyTag Feasible?
+## 7. Is FallacyTag Feasible?
 
 Coming soon…
