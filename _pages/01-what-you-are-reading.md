@@ -13,3 +13,7 @@ The core idea is technical: a lightweight, modular tool to highlight flawed reas
 If that feels uneven, it’s on purpose. Structural humility isn’t just a design constraint—it’s a writing constraint, too.
 
 This is for builders, educators, interface designers, and critics. You don’t have to agree. But if it makes you pause, test, or reframe, then it’s doing its job.
+
+----
+
+[Previous](/fallacytag/pages/00-abstract/){: .btn }   [Next](/fallacytag/pages/02-the-architecture-of-avoidance/){: .btn }
