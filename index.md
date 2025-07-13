@@ -13,7 +13,7 @@ A lightweight reasoning-feedback layer for flawed logic in the wild.
 
 ---
 
-FallacyTag is an experiment in restoring **structure to public reasoning**.  
+FallacyTag is an experiment in offering **structure to public reasoning**.  
 It explores how we might give flawed arguments the same visibility as typos—  
 *not to shame*, but to support reflection, clarity, and better conversations.
 
