@@ -15,102 +15,109 @@
   },"2": {
     "doc": "0. Abstract",
     "title": "0. Abstract",
-    "content": "FallacyTag is a lightweight reasoning aid designed to surface flawed argument structure in online discourse—gently, interpretably, and without moralizing. Built around modern LLM capabilities and constrained design, it offers sentence-level feedback in the form of informal fallacy cues: not judgments, but structural prompts. This paper presents the concept, sketches its architecture, explores its feasibility across technical, social, and conceptual dimensions, and proposes a framework for deployment in varied modalities (text, audio, video). The core bet is simple: by making reasoning structure visible—even imperfectly—we can foster better reflection without requiring cultural revolutions or cognitive overhauls. FallacyTag isn’t a moderator or a fact-checker. It’s a nudge toward clarity, designed to fit where logic matters and tone is fragile. The paper is exploratory in form, rigorous in ambition, and deliberately uneven in tone. It is meant as a public proposal—for critique, adaptation, or reinvention. ",
+    "content": "FallacyTag is a lightweight reasoning aid designed to surface flawed argument structure in online discourse—gently, interpretably, and without moralizing. Built around modern LLM capabilities and constrained design, it offers sentence-level feedback in the form of informal fallacy cues: not judgments, but structural prompts. This paper presents the concept, sketches its architecture, explores its feasibility across technical, social, and conceptual dimensions, and proposes a framework for deployment in varied modalities (text, audio, video). The core bet is simple: by making reasoning structure visible—even imperfectly—we can foster better reflection without requiring cultural revolutions or cognitive overhauls. FallacyTag isn’t a moderator or a fact-checker. It’s a nudge toward clarity, designed to fit where logic matters and tone is fragile. The paper is exploratory in form, rigorous in ambition, and deliberately uneven in tone. It is meant as a public proposal—for critique, adaptation, or reinvention. Next . ",
     "url": "/fallacytag/pages/00-abstract/",
     
     "relUrl": "/pages/00-abstract/"
   },"3": {
     "doc": "1. What You Are Reading",
     "title": "1. What You Are Reading",
-    "content": "This is a civic design essay. It’s not a pitch, white paper, or research submission. It’s an exploration—part concept proposal, part system sketch, part cultural provocation. The core idea is technical: a lightweight, modular tool to highlight flawed reasoning in digital conversation. But the surrounding context is human. Tone, trust, and interpretation matter as much as model performance. So this paper moves between domains—language models, argument theory, pedagogy, and UX—and switches tone often. Some sections are nerdy. Others are more playful, skeptical, or intentionally jarring. If that feels uneven, it’s on purpose. Structural humility isn’t just a design constraint—it’s a writing constraint, too. This is for builders, educators, interface designers, and critics. You don’t have to agree. But if it makes you pause, test, or reframe, then it’s doing its job. ",
+    "content": "This is a civic design essay. It’s not a pitch, white paper, or research submission. It’s an exploration—part concept proposal, part system sketch, part cultural provocation. The core idea is technical: a lightweight, modular tool to highlight flawed reasoning in digital conversation. But the surrounding context is human. Tone, trust, and interpretation matter as much as model performance. So this paper moves between domains—language models, argument theory, pedagogy, and UX—and switches tone often. Some sections are nerdy. Others are more playful, skeptical, or intentionally jarring. If that feels uneven, it’s on purpose. Structural humility isn’t just a design constraint—it’s a writing constraint, too. This is for builders, educators, interface designers, and critics. You don’t have to agree. But if it makes you pause, test, or reframe, then it’s doing its job. Previous Next . ",
     "url": "/fallacytag/pages/01-what-you-are-reading/",
     
     "relUrl": "/pages/01-what-you-are-reading/"
   },"4": {
-    "doc": "2. What’s Avoided at Scale",
-    "title": "2. What’s Avoided at Scale",
-    "content": "Coming soon… . ",
-    "url": "/fallacytag/pages/02-why-online-argument-rarely-builds/",
+    "doc": "2. The Architecture of Avoidance",
+    "title": "2. The Architecture of Avoidance",
+    "content": " ",
+    "url": "/fallacytag/pages/02-the-architecture-of-avoidance/",
     
-    "relUrl": "/pages/02-why-online-argument-rarely-builds/"
+    "relUrl": "/pages/02-the-architecture-of-avoidance/"
   },"5": {
+    "doc": "2. The Architecture of Avoidance",
+    "title": "Table of Contents",
+    "content": ". | 2.0 What’s Avoided at Scale | 2.1. The Decline Question | 2.2 A Fork in the Feedback | . 2.0 What’s Avoided at Scale . Poet Andrew Choate holds up a mirror at an angle that flatters few: . Is it lazier to make a big thing, make a lot of things, or to make a small thing, not very much? There’s certainly an aura—perhaps even a suspicion—of laziness in prolificness. Choate’s insight is more than artistic musing—it touches something structural. In this framing, laziness isn’t about the amount of visible effort—how prolific or energetic someone appears—but about the effort that’s systematically avoided: the harder, slower work of cognitive depth—like tracking internal consistency across ideas, integrating perspectives, or wrestling with moral consequences. A person who constantly produces is not thinking hard enough. Reasoning is expensive biologically1: it draws heavily on focus, memory, and effortful synthesis. What’s avoided depends on the person and context—attention span, cognitive bandwidth, platform norms, and even educational background. People think just well enough to get by most of the time, which is to say, we don’t think well often. In the digital realm, the collective result of these savings is hard to miss even for a budget observer. The concept of productive laziness scales perfectly to the Internet, where prolificness dominates—across users who favor immediacy over depth, across platforms that amplify volume over structure, and across time as habits solidify into norms. We churn out tweets, comments, videos, and threads—creative, at times, but rarely cumulative. They seldom connect, challenge, or extend ideas in ways that build reasoning2. Entranced in sweaty pursuit of algorithmic incentives and social validation, we don’t resist the omission. Because reasoning is costly and platforms are optimized for metabolic thrift (privileging ease, speed, and volume), deeper forms of thought get displaced. Individual shortcuts are just that, but how the system responds to them invites scrutiny. The more we reward rapid, prolific contributions, the more those patterns dominate—and the more algorithms tune themselves to those patterns in turn. Poor reasoning isn’t just common; it’s reinforced. A positive feedback loop emerges: lazy thinking gets surfaced, incentivized, copied, and rewarded, until it becomes the baseline rhythm of public discourse. What’s avoided at scale becomes not just a personal lapse, but a structural erosion—a thinning of what holds thought together. Like a microphone too close to a speaker, the system begins to amplify its own distortion. flowchart TD U[User Input: Quick, Shallow Content] P[Platform Incentives: Likes, Shares, Visibility] A[Algorithmic Prioritization: Surface &amp; Amplify] N[Norm Formation: Prolificness = Success] B[User Behavior Shifts: More Shortcut Thinking] U --&gt; P --&gt; A --&gt; N --&gt; B --&gt; U classDef loop fill:#fffbe6,stroke:#c9a100,stroke-width:2px; class U,P,A,N,B loop . Figure: The Reasoning Feedback Loop. And so, the Internet has grown vast and expressive—yet hollowed of connective logic3. This didn’t happen by decree—it emerged through a kind of ambient laziness: the positive feedback loop of systematic deferral of slow, effortful thought. 2.1. The Decline Question . We are taking a stroll among big ideas and dramatic questions, and here it’s paramount to walk past the wrong ones. I am reminded of a story that the legendary composer John Cage told in Indeterminacy: . After the concert I was walking along with the composer and he was telling me how the performances had not been quite up to snuff. So I said, “Well, I enjoyed the music, but I didn’t agree with that program note about there being too much pain in the world. He said, “What? Don’t you think there’s enough?” I said, “I think there’s just the right amount”. Cage’s provocation points out that saying “too much suffering” begs the question: relative to what ideal, what baseline, and by what mechanism are we measuring? This is precisely the kind of ambiguity that should give us pause before declaring reasoning in decline, whether due to platforms or anything else. Many critiques of modern discourse, from social media to political polarization, carry a background hum of nostalgia: the sense that people used to think better. But as a diagnostic, it’s deeply fraught. Measuring “reasoning” is hard enough. Comparing it across platforms, eras, and populations is harder still. What’s the unit of analysis? A syllogism? A thread? A voter base? A classroom? Should we weigh visibility, frequency, coherence, and influence? There’s no natural denominator—and no stable point of reference. Worse, the question may not even be consequential. Suppose we knew that the average quality of public reasoning had declined. What exactly would follow? Our task would still be to improve it. Or suppose reasoning had increased—but become less discoverable amid digital noise. That, too, would call for new tools and better infrastructure. We are looking to side-step the irony of dedicating the previous chapter to the sorry state of the online discourse, and avoid the descent into helpless lament. Rather than ask whether reasoning has declined, we prefer to ask: how can we support more of it, in more places, with less friction and more uptake? . We’re dissatisfied with the current reasoning environment, but we also see in it a challenge that lends itself, at least in part, to architectural solutions. 2.2 A Fork in the Feedback . The rise of large language models adds a new layer of complexity to the landscape we’ve just described. LLMs are trained on the same public discourse that platforms already distort—language shaped by speed, ambiguity, persuasion, and prolificness. So it’s reasonable to worry that they might amplify the positive feedback loop we’ve traced: reproducing shallow reasoning, reinforcing its patterns, and accelerating its spread4. But amplification is not an inevitability. While LLMs inherit the ambiguity and rhetorical shortcuts of human language, their behavior is shaped as much by architecture as by data. Prompt structures, interaction design, system incentives, and delivery context all influence what kind of reasoning they surface or suppress. In the wrong configuration, they amplify fallacies. But in the right one, they could help users notice what’s missing, slow down when it matters, and build with more structure. The challenge isn’t to perfect reasoning, but to scaffold it—to make its presence more visible, its absence harder to miss, and its structure easier to sustain. FallacyTag is one such attempt—but it’s not offered as proof of concept for the broader thesis. If it fails to change behavior or improve discourse, that outcome wouldn’t undermine the core claim: that reasoning can be shaped architecturally5. It might only mean this particular design—or this moment—wasn’t the right match. What matters is the direction of inquiry: building systems that make reasoning easier to see, to question, and to improve. If we can design for attention, we’d better design for reasoning. Previous Next . | Deliberate reasoning draws heavily on attention, memory, and executive control. Psychologists describe it as System 2 thinking—slow and effortful, unlike our fast, intuitive defaults (Stanovich &amp; West 2000; Kahneman 2011). Neuroscience shows it activates resource-intensive brain areas like the prefrontal cortex (Baddeley 2000), while cognitive load theory explains why unfamiliar reasoning tasks quickly overwhelm us (Sweller 1988). Evolutionary accounts argue that reasoning is selectively deployed—used when the stakes justify the energy cost, especially in social argument (Mercier &amp; Sperber 2011; Lieder &amp; Griffiths 2020). Early studies have even tied sustained reasoning to glucose depletion (Gailliot et al. 2007) or, more recently, subjective fatigue (Kurzban et al. 2013). &#8617; . | Online discourse is often expressive or creative but rarely builds cumulative reasoning—a claim supported by multiple empirical studies. On Facebook, Del Vicario et al. (2016) showed that users interact largely within ideological echo chambers, where emotionally resonant content spreads more effectively than deliberative argument. Singer et al. (2016) indicates diminished reasoning quality over time on Reddit, suggesting that platform interaction fails to reinforce sustained, cumulative reasoning. Aragón et al. (2017) notes that drifting threads and ignored comments result from poor structuration of argument flow. Shortall et al. (2021) observes that that digital platforms often degrade discussion quality when attempting to scale deliberation and highlights the scarcity of design features that support argument accumulation, critical thinking, and structured reasoning. Collectively, these studies suggest that while digital platforms facilitate creative participation, they seldom reward or reinforce the kind of reasoning that accumulates across exchanges. &#8617; . | We are aware of pockets of better reasoning on the Internet: longform forums, commentaries, Substacks, or collaborative writing spaces. The focus of this section is on what gets surfaced and rewarded at scale. The next section (2.1) explains that we are not interested in the authoritative grading of the Internet. &#8617; . | Large language models may amplify fallacious reasoning if not carefully constrained. Studies have found that while LLMs can identify certain fallacies, they often misclassify, overlook, or even generate flawed arguments, particularly in nuanced or ambiguous cases. For example, Teo et al. (2025) reported high variability in LLM fallacy classification performance, especially with intent-dependent types such as intentional or equivocation. Similarly, Manickavasagam &amp; Bandara (2025) noted that even with prompting and fine-tuning, models struggle with interpretive ambiguity. External evaluations have shown that LLMs frequently generate persuasive but fallacious content in argument tasks unless guided by structured reasoning constraints (Ji et al., 2023). &#8617; . | Several platforms exemplify how architectural design can scaffold cumulative reasoning online. Kialo structures debates via branching pro/con argument maps, which multiple (self-promoted but seemingly independent) educational studies and documentation show improve critical thinking, clarity, and engagement. Pol.is uses clustering algorithms to surface cross-cutting consensus, and its deployment in Taiwan’s vTaiwan platform has led to real policy outcomes (vTaiwan case study; The Computational Democracy Project case studies). LiquidFeedback supports structured proposition development, integrated deliberation and voting, and delegative democracy mechanisms used by the German Pirate Party (Kling et al. (2015)) and other civic groups (Behrens et al. 2014). These platforms illustrate that, with intentional architectural design, online reasoning can indeed accumulate meaningfully across exchanges. &#8617; . | . ",
+    "url": "/fallacytag/pages/02-the-architecture-of-avoidance/#table-of-contents",
+    
+    "relUrl": "/pages/02-the-architecture-of-avoidance/#table-of-contents"
+  },"6": {
     "doc": "3. Scaffolded Intelligence",
     "title": "3. Scaffolded Intelligence",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/03-scaffolded-intelligence/",
     
     "relUrl": "/pages/03-scaffolded-intelligence/"
-  },"6": {
+  },"7": {
     "doc": "4. Introducing FallacyTag",
     "title": "4. Introducing FallacyTag",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/04-introducing-fallacytag/",
     
     "relUrl": "/pages/04-introducing-fallacytag/"
-  },"7": {
+  },"8": {
     "doc": "5. Modalities and Fit",
     "title": "5. Modalities and Fit",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/05-modalities-and-fit/",
     
     "relUrl": "/pages/05-modalities-and-fit/"
-  },"8": {
+  },"9": {
     "doc": "6. How It Works",
     "title": "6. How It Works",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/06-how-it-works/",
     
     "relUrl": "/pages/06-how-it-works/"
-  },"9": {
+  },"10": {
     "doc": "7. Is FallacyTag Feasible?",
     "title": "7. Is FallacyTag Feasible?",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/07-feasibility/",
     
     "relUrl": "/pages/07-feasibility/"
-  },"10": {
+  },"11": {
     "doc": "8. Staying Honest at the Edges",
     "title": "8. Staying Honest at the Edges",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/08-constraints/",
     
     "relUrl": "/pages/08-constraints/"
-  },"11": {
+  },"12": {
     "doc": "9. Conditional Case - When This Is Worth Building",
     "title": "9. Conditional Case: When This Is Worth Building",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/09-worth-building/#9-conditional-case-when-this-is-worth-building",
     
     "relUrl": "/pages/09-worth-building/#9-conditional-case-when-this-is-worth-building"
-  },"12": {
+  },"13": {
     "doc": "9. Conditional Case - When This Is Worth Building",
     "title": "9. Conditional Case - When This Is Worth Building",
     "content": " ",
     "url": "/fallacytag/pages/09-worth-building/",
     
     "relUrl": "/pages/09-worth-building/"
-  },"13": {
+  },"14": {
     "doc": "10. Call to Explore",
     "title": "10. Call to Explore",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/10-call-to-explore/",
     
     "relUrl": "/pages/10-call-to-explore/"
-  },"14": {
+  },"15": {
     "doc": "Appendix A – Veritasium Logic Check",
     "title": "Appendix A – Veritasium Logic Check",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/appendix-a/",
     
     "relUrl": "/pages/appendix-a/"
-  },"15": {
+  },"16": {
     "doc": "Appendix B – Reddit CMV Logic Check",
     "title": "Appendix B – Reddit CMV Logic Check",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/appendix-b/",
     
     "relUrl": "/pages/appendix-b/"
-  },"16": {
+  },"17": {
     "doc": "References",
     "title": "References",
     "content": "Coming soon… . ",
