@@ -22,7 +22,7 @@ Sections are being released incrementally. So far, the following are available:
 
 - ✅ Section 0: Abstract  
 - ✅ Section 1: Introduction  
-- ✅ Section 2: What’s Avoided at Scale  
+- ✅ Section 2: The Architecture of Avoidance  
 - ⏳ Sections 3–10: Coming soon  
 
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
