@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Hello",
     "title": "FallacyTag: Surfacing Argument Structure in Public Discourse",
-    "content": "A lightweight reasoning-feedback layer for flawed logic in the wild. 📬 Subscribe on Substack 📄 Full paper: Sections released at least once a week — browse what’s online . FallacyTag is an experiment in offering structure to public reasoning. It explores how we might give flawed arguments the same visibility as typos— not to shame, but to support reflection, clarity, and better conversations. This site hosts the live draft of the FallacyTag paper. Sections are being released incrementally. So far, the following are available: . | ✅ Section 0: Abstract | ✅ Section 1: Introduction | ✅ Section 2: What’s Avoided at Scale | ⏳ Sections 3–10: Coming soon | . Check the sidebar for what’s currently available, or follow the project on Substack for updates. If you’re a builder, educator, or curious skeptic—welcome. ",
+    "content": "A lightweight reasoning-feedback layer for flawed logic in the wild. 📬 Subscribe on Substack 📄 Full paper: Sections released at least once a week — browse what’s online . FallacyTag is an experiment in offering structure to public reasoning. It explores how we might give flawed arguments the same visibility as typos— not to shame, but to support reflection, clarity, and better conversations. This site hosts the live draft of the FallacyTag paper. Sections are being released incrementally. So far, the following are available: . | ✅ Section 0: Abstract | ✅ Section 1: Introduction | ✅ Section 2: The Architecture of Avoidance | ⏳ Sections 3–10: Coming soon | . Check the sidebar for what’s currently available, or follow the project on Substack for updates. If you’re a builder, educator, or curious skeptic—welcome. ",
     "url": "/fallacytag/#fallacytag-surfacing-argument-structure-in-public-discourse",
     
     "relUrl": "/#fallacytag-surfacing-argument-structure-in-public-discourse"
@@ -132,20 +132,6 @@
     
     "relUrl": "/pages/10-call-to-explore/"
   },"19": {
-    "doc": "Appendix A – Veritasium Logic Check",
-    "title": "Appendix A – Veritasium Logic Check",
-    "content": "Coming soon… . ",
-    "url": "/fallacytag/pages/appendix-a/",
-    
-    "relUrl": "/pages/appendix-a/"
-  },"20": {
-    "doc": "Appendix B – Reddit CMV Logic Check",
-    "title": "Appendix B – Reddit CMV Logic Check",
-    "content": "Coming soon… . ",
-    "url": "/fallacytag/pages/appendix-b/",
-    
-    "relUrl": "/pages/appendix-b/"
-  },"21": {
     "doc": "References",
     "title": "References",
     "content": "Coming soon… . ",
