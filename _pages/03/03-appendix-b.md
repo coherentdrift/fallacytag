@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Appendix B - Logic Check Experiment: Reddit CMV on Local vs National Politics"
-parent: "3. Scaffolded Intelligence"
+parent: "3. Scaffolded Intelligence: How LLMs Can Catch Flawed Reasoning"
 nav_order: 2
 ---
 
