@@ -8,6 +8,23 @@ baseurl: /fallacytag
 mermaid:
   version: "9.1.3"
 
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red  
+
 aux_links:
   Substack: https://coherentdrift.substack.com
   GitHub: https://github.com/coherentdrift/fallacytag
