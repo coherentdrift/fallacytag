@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Appendix A - Logic Check Experiment: Why Democracy Is Mathematically Impossible by Veritasium"
-parent: "3. Scaffolded Intelligence"
+parent: "3. Scaffolded Intelligence: How LLMs Can Catch Flawed Reasoning"
 nav_order: 1
 ---
 
