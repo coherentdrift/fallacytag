@@ -61,7 +61,7 @@ Structure-surfacing is tractable because it sidesteps the hardest parts of reaso
 | Surface-Level Fallacies | ✅ Reliable                    | ⚠️ Sometimes (depends on clarity) |
 | Contextual Fallacies    | ⚠️ Possible (with scaffolding) | ❌ Fails: too messy / brittle     |
 
-GPT-4 can help—but, by itself, it's not enough of the answer. The earlier examples worked because the task was shaped to fit the model’s strengths: clear text, stable discourse, no ambiguity about roles. The model followed a structure I didn’t even realize I was providing. That’s not product behavior—it’s scaffolded response.
+GPT-4 can help—but, by itself, it's not enough of an answer. The earlier examples worked because the task was shaped to fit the model’s strengths: clear text, stable discourse, no ambiguity about roles. The model followed a structure I didn’t even realize I was providing. That’s not product behavior—it’s scaffolded response.
 
 Why doesn’t that generalize? Because the hard parts remain hard. LLMs still flounder with messy discourse, shifting tone, unstable goals. They don’t know when they’re helping—especially when reasoning becomes social, not just logical. A correct tag, surfaced at the wrong moment, can derail reflection. Reasoning isn’t just about logic. It’s about timing, tone, and trust.
 
