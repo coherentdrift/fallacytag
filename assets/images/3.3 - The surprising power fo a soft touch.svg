@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="498pt" height="380pt" viewBox="0.00 0.00 497.60 379.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 375.6)">
+<title>FallacyTagNudge</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-375.6 493.6,-375.6 493.6,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<path fill="none" stroke="black" d="M333.6,-371.6C333.6,-371.6 156,-371.6 156,-371.6 150,-371.6 144,-365.6 144,-359.6 144,-359.6 144,-336 144,-336 144,-330 150,-324 156,-324 156,-324 333.6,-324 333.6,-324 339.6,-324 345.6,-330 345.6,-336 345.6,-336 345.6,-359.6 345.6,-359.6 345.6,-365.6 339.6,-371.6 333.6,-371.6"/>
+<text text-anchor="middle" x="244.8" y="-357.7" font-family="Times,serif" font-size="11.00">Desirable Difficulties</text>
+<text text-anchor="middle" x="244.8" y="-344.5" font-family="Times,serif" font-size="11.00">(Bjork &amp; Bjork, 2011)</text>
+<text text-anchor="middle" x="244.8" y="-331.3" font-family="Times,serif" font-size="11.00">→ Promote retrieval &amp; effortful recall</text>
+</g>
+<!-- Center -->
+<g id="node5" class="node">
+<title>Center</title>
+<ellipse fill="lightblue" stroke="black" cx="244.8" cy="-203.8" rx="117.18" ry="26.02"/>
+<text text-anchor="middle" x="244.8" y="-207.4" font-family="Times,serif" font-size="12.00">FallacyTag-Style Nudge</text>
+<text text-anchor="middle" x="244.8" y="-193" font-family="Times,serif" font-size="12.00">= Reflection without resistance</text>
+</g>
+<!-- A&#45;&#45;Center -->
+<g id="edge1" class="edge">
+<title>A--Center</title>
+<path fill="none" stroke="black" d="M244.8,-323.7C244.8,-297.76 244.8,-256.63 244.8,-229.93"/>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<path fill="none" stroke="black" d="M189.6,-155.6C189.6,-155.6 12,-155.6 12,-155.6 6,-155.6 0,-149.6 0,-143.6 0,-143.6 0,-120 0,-120 0,-114 6,-108 12,-108 12,-108 189.6,-108 189.6,-108 195.6,-108 201.6,-114 201.6,-120 201.6,-120 201.6,-143.6 201.6,-143.6 201.6,-149.6 195.6,-155.6 189.6,-155.6"/>
+<text text-anchor="middle" x="100.8" y="-141.7" font-family="Times,serif" font-size="11.00">Metacognitive Prompting</text>
+<text text-anchor="middle" x="100.8" y="-128.5" font-family="Times,serif" font-size="11.00">(Schraw &amp; Dennison, 1994)</text>
+<text text-anchor="middle" x="100.8" y="-115.3" font-family="Times,serif" font-size="11.00">→ Encourage self-monitoring</text>
+</g>
+<!-- B&#45;&#45;Center -->
+<g id="edge2" class="edge">
+<title>B--Center</title>
+<path fill="none" stroke="black" d="M149.15,-155.98C164.51,-163.66 181.49,-172.14 196.82,-179.81"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<path fill="none" stroke="black" d="M477.6,-155.6C477.6,-155.6 300,-155.6 300,-155.6 294,-155.6 288,-149.6 288,-143.6 288,-143.6 288,-120 288,-120 288,-114 294,-108 300,-108 300,-108 477.6,-108 477.6,-108 483.6,-108 489.6,-114 489.6,-120 489.6,-120 489.6,-143.6 489.6,-143.6 489.6,-149.6 483.6,-155.6 477.6,-155.6"/>
+<text text-anchor="middle" x="388.8" y="-141.7" font-family="Times,serif" font-size="11.00">Autonomy-Supportive Design</text>
+<text text-anchor="middle" x="388.8" y="-128.5" font-family="Times,serif" font-size="11.00">(Brehm &amp; Brehm, 1981)</text>
+<text text-anchor="middle" x="388.8" y="-115.3" font-family="Times,serif" font-size="11.00">→ Avoid psychological reactance</text>
+</g>
+<!-- C&#45;&#45;Center -->
+<g id="edge3" class="edge">
+<title>C--Center</title>
+<path fill="none" stroke="black" d="M340.45,-155.98C325.09,-163.66 308.11,-172.14 292.78,-179.81"/>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<path fill="none" stroke="black" d="M355.5,-47.6C355.5,-47.6 134.1,-47.6 134.1,-47.6 128.1,-47.6 122.1,-41.6 122.1,-35.6 122.1,-35.6 122.1,-12 122.1,-12 122.1,-6 128.1,0 134.1,0 134.1,0 355.5,0 355.5,0 361.5,0 367.5,-6 367.5,-12 367.5,-12 367.5,-35.6 367.5,-35.6 367.5,-41.6 361.5,-47.6 355.5,-47.6"/>
+<text text-anchor="middle" x="244.8" y="-33.7" font-family="Times,serif" font-size="11.00">Argumentation Prompting</text>
+<text text-anchor="middle" x="244.8" y="-20.5" font-family="Times,serif" font-size="11.00">(Nussbaum &amp; Kardash, 2005)</text>
+<text text-anchor="middle" x="244.8" y="-7.3" font-family="Times,serif" font-size="11.00">→ Reflection improves writing more than correction</text>
+</g>
+<!-- D&#45;&#45;Center -->
+<g id="edge4" class="edge">
+<title>D--Center</title>
+<path fill="none" stroke="black" d="M244.8,-48.08C244.8,-81.76 244.8,-142.45 244.8,-177.28"/>
+</g>
+</g>
+</svg>
