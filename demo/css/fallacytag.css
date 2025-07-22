@@ -79,6 +79,16 @@ h2 {
   background-color: #ddd;
 }
 
+@keyframes pulse {
+  0%   { background-color: #fff7d9; }
+  50%  { background-color: #ffe58f; }
+  100% { background-color: #fff7d9; }
+}
+
+.fallacy.pulse {
+  animation: pulse 1.5s ease-in-out 2;
+}
+
 /* Optional context panel (above article) */
 #demo-context {
   background: #fafafa;

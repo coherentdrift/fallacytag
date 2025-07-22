@@ -78,3 +78,16 @@ document.getElementById("btn-thanks").addEventListener("click", () => {
 document.getElementById("btn-incorrect").addEventListener("click", () => {
   hideExplanation("incorrect");
 });
+
+// Handle ?highlight=f1 URL param
+const highlightId = new URLSearchParams(window.location.search).get("highlight");
+if (highlightId) {
+  const target = document.querySelector(`.fallacy[data-id="${highlightId}"]`);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth", block: "center" });
+    target.classList.add("pulse");
+
+    const key = target.dataset.fallacy;
+    showExplanation(key, target);
+  }
+}
