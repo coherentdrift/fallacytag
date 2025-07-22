@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Appendix A - Logic Check Experiment: Why Democracy Is Mathematically Impossible by Veritasium"
-parent: "3. Scaffolded Intelligence: How LLMs Can Catch Flawed Reasoning"
+parent: "3. Scaffolded Intelligence: How LLMs Can Support Better Reasoning"
 nav_order: 1
 ---
 
@@ -20,7 +20,9 @@ nav_order: 1
 
 [https://youtu.be/qf7ws2DF-zk](https://youtu.be/qf7ws2DF-zk?feature=shared)
 
-### 🔍 Prompt
+### Case Study: (Inadvertently) Scaffolded Prompt
+
+#### 🔍 Prompt
 
 > I'd like to discuss the logical quality of the conclusion of a YouTube transcript. This is the core of the argument, without conclusion:
 >
@@ -36,9 +38,9 @@ nav_order: 1
 >Does the conclusion actually follow from the previous content? Is it logical? Do you detect specific fallacies?
 >
 
-### 🤖 GPT Response
+#### 🤖 GPT Response
 
-The unabridged response is lost in the ether, but the exact content that impressed me, manually organized in a table, follows:
+The unabridged response is lost in the ether, but the exact content that impressed me, manually organized in a single table (copy/paste only), follows:
 
 > {: .highlight }
 >>

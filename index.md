@@ -20,10 +20,11 @@ It explores how we might give flawed arguments the same visibility as typos—
 This site hosts the live draft of the FallacyTag paper.  
 Sections are being released incrementally. So far, the following are available:
 
-- ✅ Section 0: Abstract  
-- ✅ Section 1: Introduction  
-- ✅ Section 2: The Architecture of Avoidance  
-- ⏳ Sections 3–10: Coming soon  
+- ✅ 0: Abstract  
+- ✅ 1: Introduction  
+- ✅ 2: The Architecture of Avoidance  
+- ✅ 3: Scaffolded Intelligence: How LLMs Can Support Better Reasoning
+- ⏳ Sections 4–10: Coming soon  
 
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
 
