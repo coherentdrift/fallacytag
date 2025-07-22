@@ -20,6 +20,7 @@ To embed this demo elsewhere (e.g., Substack), use this URL:
 
 ```html
 <iframe src="https://coherentdrift.github.io/fallacytag/demo/?embed=true" width="100%" height="600" style="border:none;"></iframe>
+```
 
 ## 📁 Repository Structure
 
@@ -45,11 +46,14 @@ To preview the site locally using [Jekyll](https://jekyllrb.com/):
    gem install bundler
    bundle install
    ```
-3.	Serve the site:
+
+3. Serve the site:
+
    ```bash
    bundle exec jekyll serve
    ```
-4.	Visit http://localhost:4000/fallacytag/ in your browser.
+
+4. Visit <http://localhost:4000/fallacytag/> in your browser.
 
 ## ✍️ Contributing
 
@@ -59,7 +63,7 @@ If you’re interested in participating in future development or research around
 ## 📬 Subscribe for Updates
 
 Follow the project on Substack for release notes and reflections:
-👉 https://coherentdrift.substack.com
+👉 <https://coherentdrift.substack.com>
 
 ## 📝 License
 
