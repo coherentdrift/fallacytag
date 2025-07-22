@@ -13,9 +13,9 @@ nav_order: 4
 - TOC
 {:toc}
 
-Can large language models detect fallacies? Not reliably. However, under the right conditions, we may be able to farm from them most of that value. In what follows, we mine that seam.
+Can large language models identify fallacies? Not reliably. However, we can set conditions that allow us to capture much of the potential value.
 
-We begin with an anecdote that showcases an LLM’s surprising moment of clarity (3.0), and probe the conditions under which that clarity arises (3.1). From there, we sketch a design path that works within those limits rather than against them (Section 3.2), and argue that the resulting interaction model may not only be sufficient, but also desirable (Section 3.3).
+We begin with an anecdote that showcases an LLM’s surprising moment of clarity (Section 3.0), and probe the conditions under which that clarity arises (3.1). From there, we sketch a design path that works within those limits rather than against them (3.2), and argue that the resulting interaction model may not only be sufficient, but also desirable (3.3).
 
 ### 3.0 A Glimpse of What’s Coming
 
@@ -35,29 +35,20 @@ That’s the hinge: fallacy detection is brittle — brittle to tone, intent, am
 
 If the model needed me in the loop to think straight, at least one of us was in trouble.
 
-I wanted to probe a narrower question:
->In an unstructured but sincere public forum, could a general-purpose LLM, with a plain prompt and no scaffolding, surface informal fallacies in a way that felt contextually grounded and intelligible to a lay reader?
+So I tried a simpler question:
+>Can a general-purpose LLM, with a plain prompt and no scaffolding, surface informal fallacies in a way that feels grounded and legible to a layperson?
 
-Not reliably, not exhaustively — just plausibly useful. The test wasn’t whether the model had a general skill. It was whether, under ordinary conditions, it could occasionally surface reasoning structure in a way that made sense.
+Not reliably, not exhaustively — just, sometimes, usefully.
 
 I ran a comically small experiment to test it. I went to Reddit’s [*r/ChangeMyView*](https://www.reddit.com/r/changemyview/), picked the first thread that wasn’t a political minefield, and pulled three consecutive recent comments. [I fed them, one by one, into GPT-4](https://coherentdrift.github.io/fallacytag/pages/03/03-appendix-b/) with a basic prompt: identify any flawed reasoning and explain why. No special formatting, no chain-of-thought nudges.
 
-The [thread](https://www.reddit.com/r/changemyview/comments/1lp8uh9/cmv_local_politics_is_much_more_important_to_your/)’s claim was simple and strong: **“Local politics is much more important to your life than national politics.”** It’s the kind of internet assertion that invites anecdote, overreach, and half-reasoned takes.
+The [thread](https://www.reddit.com/r/changemyview/comments/1lp8uh9/cmv_local_politics_is_much_more_important_to_your/)’s claim was typical: “Local politics is much more important to your life than national politics.” The replies were sincere but messy—ripe for overreach.
 
-The model’s responses were measured and grounded.
+- One cited Canadian municipalities to argue national politics mattered more. GPT flagged a false analogy and unsupported empirical claim. Fair.
+- Another drew a neat line: local = speed bumps, national = healthcare. GPT pointed to false equivalence and oversimplification. Again, fair.
+- A third listed federal programs to argue that national politics is more consequential. GPT noted cherry-picking and scope shifting—raising lifetime-scale policies to counter local day-to-day effects.
 
-- One commenter made a sweeping comparison between local towns and Canadian municipalities, arguing that national politics mattered more. The model flagged a false analogy and an unsupported empirical claim. Fair.
-- Another drew a tidy line between national and local politics: local means speed bumps, national means healthcare and housing. GPT pointed out false equivalence and oversimplification — again, justified.
-- A third listed major federal programs to argue that national politics is more consequential. The model noted cherry-picking and scope shifting, introducing lifetime-scale examples, such as Medicare, to counter claims about day-to-day impact.
-
-This wasn’t exactly a rigorous evaluation — three comments, one researcher, zero inter-rater reliability. But it wasn’t meaningless either. The prompt was plain, the comments were unfiltered, and the model got no special treatment. If it still manages to say something sensible under those conditions, that’s noise I have a bit of time for. And hey, even a small N can falsify a capability.
-
-Even without tuning, the responses were grounded — not exhaustive, but useful.
-
-These results conform to the limitations described in the literature. I didn’t ask the model to resolve ambiguity, weigh intentions, or arbitrate truth. I presented it with plain, well-meaning arguments and asked it to surface any flawed structure. That’s where prior studies suggest models have the best chance of success — and where a product like FallacyTag might be viable.
-
-Still, the model surfaced sentence-level structure—intelligible and socially legible—without special setup. And that’s the seam this paper follows: not detection, but structure. Not correction, but cues.
-
+This wasn’t exactly a rigorous evaluation — three comments, one researcher, zero inter-rater reliability. However, under plain conditions, the model provided structured and sensible feedback. This is where prior studies suggest models have the best chance of success — and where a product like FallacyTag might be viable.
 
 ### 3.2 Designing Within Limits
 
