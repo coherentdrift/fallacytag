@@ -2,11 +2,11 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   line-height: 1.65;
-  color: #222;
-  background: #fff;
   margin: 2em auto;
   padding: 0 1em;
   max-width: 720px;
+  color: #222;
+  background: #fff;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
   background: #f1f5ff;
   border-left: 4px solid #6b9dfb;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   animation: fadeIn 0.2s ease-in-out;
 }
 
@@ -44,8 +44,15 @@ h2 {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-0.25em); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-0.25em);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .explanation-header {
@@ -111,4 +118,51 @@ h2 {
   margin-top: 0.5em;
   border: 1px solid #ddd;
   color: #333;
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #eee;
+  }
+
+  .fallacy {
+    background-color: #5a4e2b;
+    border-bottom: 1px dotted #f0c96b;
+  }
+
+  .fallacy:hover {
+    background-color: #7a6a34;
+  }
+
+  .explanation {
+    background: #1e293b;
+    border-left-color: #60a5fa;
+    color: #f3f4f6;
+  }
+
+  .explanation-actions button {
+    background-color: #333;
+    color: #f3f4f6;
+  }
+
+  .explanation-actions button:hover {
+    background-color: #444;
+  }
+
+  #demo-context {
+    background: #1e1e1e;
+    border-color: #333;
+  }
+
+  .prompt-text {
+    background: #252525;
+    border-color: #444;
+    color: #ccc;
+  }
+
+  .demo-note {
+    color: #aaa;
+  }
 }
