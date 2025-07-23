@@ -36,6 +36,8 @@ If you're a builder, educator, or curious skeptic—welcome.
 
 You can explore a live interactive demo that surfaces informal fallacies in context:
 
-👉 [Launch Demo →](demo/)
+<p style="font-size:1.2em; font-weight:bold;">
+  🧪 <a href="/fallacytag/demo/?theme=academic">Try the FallacyTag Interactive Demo</a>
+</p>
 
 ---
