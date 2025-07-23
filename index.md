@@ -31,3 +31,11 @@ Check the sidebar for what’s currently available, or follow the project on Sub
 If you're a builder, educator, or curious skeptic—welcome.
 
 ---
+
+## 🧪 Try the FallacyTag Demo
+
+You can explore a live interactive demo that surfaces informal fallacies in context:
+
+👉 [Launch Demo →](fallacytag/demo/)
+
+---
