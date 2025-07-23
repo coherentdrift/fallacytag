@@ -1,7 +1,7 @@
 {"0": {
     "doc": "Hello",
     "title": "FallacyTag: Surfacing Argument Structure in Public Discourse",
-    "content": "A lightweight reasoning-feedback layer for flawed logic in the wild. 📬 Subscribe on Substack 🧪 Live interactive demo . FallacyTag is an experiment in offering structure to public reasoning. It explores how we might give flawed arguments the same visibility as typos— not to shame, but to support reflection, clarity, and better conversations. This site hosts the live draft of the FallacyTag paper. Sections are being released incrementally. So far, the following are available: . | ✅ 0: Abstract | ✅ 1: Introduction | ✅ 2: The Architecture of Avoidance | ✅ 3: Scaffolded Intelligence: How LLMs Can Support Better Reasoning | ⏳ Sections 4–10: Coming soon | . Check the sidebar for what’s currently available, or follow the project on Substack for updates. If you’re a builder, educator, or curious skeptic—welcome. ",
+    "content": "A lightweight reasoning-feedback layer for flawed logic in the wild. 📬 Subscribe on Substack 🧪 Live interactive demo . FallacyTag is an experiment in offering structure to public reasoning. It explores how we might give flawed arguments the same visibility as typos— not to shame, but to support reflection, clarity, and better conversations. This site hosts the live draft of the FallacyTag paper. Sections are being released incrementally. So far, the following are available: . | ✅ 0: Abstract | ✅ 1: Introduction | ✅ 2: The Architecture of Avoidance | ✅ 3: Scaffolded Intelligence: How LLMs Can Support Better Reasoning | ✅ 4: FallacyTag: A Gentle Loop for Sharper Thinking | ⏳ Sections 5–10: Coming soon | . Check the sidebar for what’s currently available, or follow the project on Substack for updates. If you’re a builder, educator, or curious skeptic—welcome. ",
     "url": "/fallacytag/#fallacytag-surfacing-argument-structure-in-public-discourse",
     
     "relUrl": "/#fallacytag-surfacing-argument-structure-in-public-discourse"
@@ -83,62 +83,69 @@
     
     "relUrl": "/pages/03/03-scaffolded-intelligence/#table-of-contents"
   },"12": {
-    "doc": "4. Introducing FallacyTag",
-    "title": "4. Introducing FallacyTag",
-    "content": "Coming soon… . ",
+    "doc": "4. FallacyTag: A Gentle Loop for Sharper Thinking",
+    "title": "4. FallacyTag: A Gentle Loop for Sharper Thinking",
+    "content": " ",
     "url": "/fallacytag/pages/04-introducing-fallacytag/",
     
     "relUrl": "/pages/04-introducing-fallacytag/"
   },"13": {
+    "doc": "4. FallacyTag: A Gentle Loop for Sharper Thinking",
+    "title": "Table of Contents",
+    "content": ". | 4.1 Demo: What You’re Seeing | 4.2 Tagging Loop | 4.3 Related Work | . FallacyTag is a lightweight reasoning aid—a subtle seismograph for argument structure. It doesn’t declare truth or call out errors. It just picks up on small tremors in reasoning—moments where things might not follow—and sends a gentle signal your way. The nudge is quiet, contextual, and optional. You’re free to ignore it. Or to pause, look closer, and decide for yourself. 4.1 Demo: What You’re Seeing . Your browser does not support the video tag. 👉 Try it yourself: coherentdrift.github.io/fallacytag/demo . The demo reveals more than an interface. The tagged text isn’t synthetic—it was generated using the prompt strategy implied in the previous section, applied to a real published opinion article1. What you’re seeing is not just a surface mockup, but an early sketch of what FallacyTag can become: a reasoning-aware layer that pairs content, critique, and context. 4.2 Tagging Loop . The core of FallacyTag can be traced in a single arc: . | A piece of content is analyzed | A reasoning flaw is detected | A tag is gently surfaced | . Then the loop pauses—for the user. This process is visualized below: . Figure: The FallacyTag interaction loop. Tags are rendered on reasoning flaws, and users may dismiss, revise, or ignore them—each action feeding back differently into the system. The system doesn’t push. It marks a moment of uncertainty—and steps back. From there, it depends on whether you’re reading or writing—and the kind of attention you’re bringing to the page. Some readers will nod, mentally flag the moment, and move on. Others may tap the tag to expand it—or mark it as incorrect. In some interfaces, dismissing a tag may even remove the highlight—quietly affirming the user’s decision and restoring flow. And some—if they’re in writing mode—may return to the source and revise it. Each path keeps agency in the user’s hands. The tag never insists. 4.3 Related Work . We don’t know how to build better models, but we hope to make better readers. FallacyTag relies on active research examining how large language models (LLMs) can detect logical fallacies in natural language. Recent studies have fine-tuned models like GPT-3.5 and evaluated open-source LLMs (e.g., LLaMA, Phi, Gemma) on benchmark datasets, with techniques like zero-shot chain-of-thought prompting significantly boosting classification performance2. However, the academic work generally treats fallacy detection as a self-contained NLP task, focusing on accurately classifying errors. FallacyTag has a different approach. It considers model outputs not as definitive labels but as interpretive cues—presented in context, embedded in text, and always optional. The goal is not to perfect detection3 but to promote perception: to help users recognize when reasoning may not hold. This reframing places FallacyTag closer to a pragmatic tradition of argument analysis. Rather than policing correctness, it supports reflection and dialogue—echoing theories that view fallacies as context-sensitive missteps rather than fixed logical violations4. FallacyTag also works in messier terrain. While many benchmarks focus on short, synthetic examples, FallacyTag engages with real-world discourse, including essays, transcripts, and commentary. Its purpose isn’t to declare “wrong.” It’s to gently ask: “Might this not follow?” . FallacyTag operates on transcripts—textual representations of speech, video, or writing—enabling it to work across various formats. But the way it lands depends on the medium. That’s the challenge we take up next. Previous Next . | The full prompt is available inside the demo. &#8617; . | See Teo et al. (2025) and Manickavasagam &amp; Bandara (2025) for overviews of LLM-based fallacy detection. These studies fine-tuned models like GPT-3.5 on datasets such as LOGIC and LOGIC Climate, achieving F1 scores above 0.8 in some configurations using chain-of-thought prompting and few-shot learning. &#8617; . | To be clear: we are not objecting to others perfecting detection - it’s a valuable goal, and it’s clear why researchers focus on it. We do not contribute to that effort in this paper. &#8617; . | This perspective is drawn from the work of Douglas Walton and Frans van Eemeren, who argue that fallacies are better understood as context-dependent breakdowns in dialogue rather than as fixed, formal violations of reasoning. See also historical discussions in Hamblin (1970) as well as later developments in computational argumentation theory (e.g., argumentation frameworks, dialogue games, and defeasible reasoning systems treat fallacies as strategic moves gone wrong or contextually inappropriate actions.) &#8617; . | . ",
+    "url": "/fallacytag/pages/04-introducing-fallacytag/#table-of-contents",
+    
+    "relUrl": "/pages/04-introducing-fallacytag/#table-of-contents"
+  },"14": {
     "doc": "5. Modalities and Fit",
     "title": "5. Modalities and Fit",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/05-modalities-and-fit/",
     
     "relUrl": "/pages/05-modalities-and-fit/"
-  },"14": {
+  },"15": {
     "doc": "6. How It Works",
     "title": "6. How It Works",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/06-how-it-works/",
     
     "relUrl": "/pages/06-how-it-works/"
-  },"15": {
+  },"16": {
     "doc": "7. Is FallacyTag Feasible?",
     "title": "7. Is FallacyTag Feasible?",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/07-feasibility/",
     
     "relUrl": "/pages/07-feasibility/"
-  },"16": {
+  },"17": {
     "doc": "8. Staying Honest at the Edges",
     "title": "8. Staying Honest at the Edges",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/08-constraints/",
     
     "relUrl": "/pages/08-constraints/"
-  },"17": {
+  },"18": {
     "doc": "9. Conditional Case - When This Is Worth Building",
     "title": "9. Conditional Case: When This Is Worth Building",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/09-worth-building/#9-conditional-case-when-this-is-worth-building",
     
     "relUrl": "/pages/09-worth-building/#9-conditional-case-when-this-is-worth-building"
-  },"18": {
+  },"19": {
     "doc": "9. Conditional Case - When This Is Worth Building",
     "title": "9. Conditional Case - When This Is Worth Building",
     "content": " ",
     "url": "/fallacytag/pages/09-worth-building/",
     
     "relUrl": "/pages/09-worth-building/"
-  },"19": {
+  },"20": {
     "doc": "10. Call to Explore",
     "title": "10. Call to Explore",
     "content": "Coming soon… . ",
     "url": "/fallacytag/pages/10-call-to-explore/",
     
     "relUrl": "/pages/10-call-to-explore/"
-  },"20": {
+  },"21": {
     "doc": "References",
     "title": "References",
     "content": "Coming soon… . ",
