@@ -27,7 +27,7 @@ The nudge is quiet, contextual, and optional. You’re free to ignore it. Or to 
   Your browser does not support the video tag.
 </video>
 
-**👉 Try it yourself**: coherentdrift.github.io/fallacytag/demo
+**👉 Try it yourself**: [coherentdrift.github.io/fallacytag/demo](/fallacytag/demo/?theme=academic)
 
 The demo reveals more than an interface. The tagged text isn’t synthetic—it was generated using the prompt strategy [implied in the previous section](/fallacytag/pages/03/03-scaffolded-intelligence/#32-designing-within-limits), applied to a real published opinion article[^1].
 
