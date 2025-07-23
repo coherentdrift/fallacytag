@@ -59,11 +59,13 @@ And some—if they’re in writing mode—may return to the source and revise it
 
 Each path keeps agency in the user’s hands. The tag never insists.
 
+FallacyTag allows users to mark a tag as helpful or incorrect, but whether that feedback can meaningfully improve the system is an open question.
+
 ### 4.3 Related Work
 
 We don’t know how to build better models, but we hope to make better readers.
 
-FallacyTag relies on active research examining how large language models (LLMs) can detect logical fallacies in natural language. Recent studies have fine-tuned models like GPT-3.5 and evaluated open-source LLMs (e.g., LLaMA, Phi, Gemma) on benchmark datasets, with techniques like zero-shot chain-of-thought prompting significantly boosting classification performance[^2].
+FallacyTag draws on recent research on how large language models (LLMs) can detect logical fallacies in natural language. Recent studies have fine-tuned models like GPT-3.5 and evaluated open-source LLMs (e.g., LLaMA, Phi, Gemma) on benchmark datasets, with techniques like zero-shot chain-of-thought prompting significantly boosting classification performance[^2].
 
 However, the academic work generally treats fallacy detection as a self-contained NLP task, focusing on accurately classifying errors. FallacyTag has a different approach. It considers model outputs not as definitive labels but as interpretive cues—presented in context, embedded in text, and always optional. The goal is not to perfect detection[^3] but to promote perception: to help users recognize when reasoning may not hold.
 
