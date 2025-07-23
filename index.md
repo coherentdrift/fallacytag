@@ -36,6 +36,6 @@ If you're a builder, educator, or curious skeptic—welcome.
 
 You can explore a live interactive demo that surfaces informal fallacies in context:
 
-👉 [Launch Demo →](fallacytag/demo/)
+👉 [Launch Demo →](demo/)
 
 ---
