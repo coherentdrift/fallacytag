@@ -9,7 +9,7 @@ nav_order: 1
 A lightweight reasoning-feedback layer for flawed logic in the wild.
 
 📬 [Subscribe on Substack](https://coherentdrift.substack.com)  
-📄 Full paper: Sections released at least once a week — [browse what's online](/fallacytag/)
+🧪 [Live interactive demo](/fallacytag/demo/?theme=academic)
 
 ---
 
@@ -29,15 +29,5 @@ Sections are being released incrementally. So far, the following are available:
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
 
 If you're a builder, educator, or curious skeptic—welcome.
-
----
-
-## 🧪 Try the FallacyTag Demo
-
-You can explore a live interactive demo that surfaces informal fallacies in context:
-
-<p style="font-size:1.2em; font-weight:bold;">
-  🧪 <a href="/fallacytag/demo/?theme=academic">Try the FallacyTag Interactive Demo</a>
-</p>
 
 ---
