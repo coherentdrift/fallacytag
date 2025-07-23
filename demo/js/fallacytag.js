@@ -80,7 +80,9 @@ document.getElementById("btn-incorrect").addEventListener("click", () => {
 });
 
 // Handle ?highlight=f1 URL param
-const highlightId = new URLSearchParams(window.location.search).get("highlight");
+const highlightId = new URLSearchParams(window.location.search).get(
+  "highlight"
+);
 if (highlightId) {
   const target = document.querySelector(`.fallacy[data-id="${highlightId}"]`);
   if (target) {
@@ -90,4 +92,10 @@ if (highlightId) {
     const key = target.dataset.fallacy;
     showExplanation(key, target);
   }
+}
+
+// Apply theme from URL if present
+const theme = new URLSearchParams(window.location.search).get("theme");
+if (theme) {
+  document.body.setAttribute("data-theme", theme);
 }
