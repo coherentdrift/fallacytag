@@ -71,9 +71,9 @@ FallacyTag takes a different tack: it accepts the limit and designs within it. N
 
 So the MVP has to respect both constraints:
 
-{: .highlight }
-- **Model limits** define what can be flagged.
-- **Interface design** defines how—and whether—it should be shown.
+{: .important }
+> - **Model limits** define what can be flagged.
+> - **Interface** design defines how—and whether—it should be shown.
 
 That path is narrow but viable: sentence-level cues, tuned to form over content, optional and deferential.
 
