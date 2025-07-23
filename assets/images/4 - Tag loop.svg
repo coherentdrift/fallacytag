@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="711pt" height="186pt" viewBox="0.00 0.00 710.59 186.41">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 182.41)">
+<title>FallacyTagFlow</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-182.41 706.59,-182.41 706.59,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<path fill="#ffffff" stroke="#000000" d="M74.01,-140.22C74.01,-140.22 12,-140.22 12,-140.22 6,-140.22 0,-134.22 0,-128.22 0,-128.22 0,-110.62 0,-110.62 0,-104.62 6,-98.62 12,-98.62 12,-98.62 74.01,-98.62 74.01,-98.62 80.01,-98.62 86.01,-104.62 86.01,-110.62 86.01,-110.62 86.01,-128.22 86.01,-128.22 86.01,-134.22 80.01,-140.22 74.01,-140.22"/>
+<text text-anchor="middle" x="43.01" y="-123.62" font-family="Helvetica,sans-Serif" font-size="14.00">📄 / 🎧 / 🎥</text>
+<text text-anchor="middle" x="43.01" y="-106.82" font-family="Helvetica,sans-Serif" font-size="14.00">Content</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<path fill="#eef0ff" stroke="#333333" d="M256.96,-157.02C256.96,-157.02 149.01,-157.02 149.01,-157.02 143.01,-157.02 137.01,-151.02 137.01,-145.02 137.01,-145.02 137.01,-93.82 137.01,-93.82 137.01,-87.82 143.01,-81.82 149.01,-81.82 149.01,-81.82 256.96,-81.82 256.96,-81.82 262.96,-81.82 268.96,-87.82 268.96,-93.82 268.96,-93.82 268.96,-145.02 268.96,-145.02 268.96,-151.02 262.96,-157.02 256.96,-157.02"/>
+<text text-anchor="middle" x="202.99" y="-140.42" font-family="Helvetica,sans-Serif" font-size="14.00">🧠</text>
+<text text-anchor="middle" x="202.99" y="-123.62" font-family="Helvetica,sans-Serif" font-size="14.00">FallacyTag Engine</text>
+<text text-anchor="middle" x="202.99" y="-106.82" font-family="Helvetica,sans-Serif" font-size="14.00">Analyzes for</text>
+<text text-anchor="middle" x="202.99" y="-90.02" font-family="Helvetica,sans-Serif" font-size="14.00">Reasoning Flaws</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M86.34,-119.42C98.41,-119.42 111.94,-119.42 125.39,-119.42"/>
+<polygon fill="black" stroke="black" points="125.11,-122.92 135.11,-119.42 125.11,-115.92 125.11,-122.92"/>
+</g>
+<!-- D -->
+<g id="node3" class="node">
+<title>D</title>
+<path fill="#ddffdd" stroke="#333333" d="M472.68,-74.62C472.68,-74.62 415.32,-74.62 415.32,-74.62 409.32,-74.62 403.32,-68.62 403.32,-62.62 403.32,-62.62 403.32,-28.22 403.32,-28.22 403.32,-22.22 409.32,-16.22 415.32,-16.22 415.32,-16.22 472.68,-16.22 472.68,-16.22 478.68,-16.22 484.68,-22.22 484.68,-28.22 484.68,-28.22 484.68,-62.62 484.68,-62.62 484.68,-68.62 478.68,-74.62 472.68,-74.62"/>
+<text text-anchor="middle" x="444" y="-58.02" font-family="Helvetica,sans-Serif" font-size="14.00">🧍</text>
+<text text-anchor="middle" x="444" y="-41.22" font-family="Helvetica,sans-Serif" font-size="14.00">User</text>
+<text text-anchor="middle" x="444" y="-24.42" font-family="Helvetica,sans-Serif" font-size="14.00">Views Tag</text>
+</g>
+<!-- B&#45;&gt;D -->
+<g id="edge2" class="edge">
+<title>B-&gt;D</title>
+<path fill="none" stroke="black" d="M269.17,-87.44C277.41,-83.99 285.81,-80.75 293.96,-78.02 325.78,-67.36 362.6,-59.26 391.69,-53.81"/>
+<polygon fill="black" stroke="black" points="392.13,-57.28 401.34,-52.05 390.88,-50.4 392.13,-57.28"/>
+<text text-anchor="middle" x="336.14" y="-115.82" font-family="Times,serif" font-size="14.00">🏷️</text>
+<text text-anchor="middle" x="336.14" y="-99.02" font-family="Times,serif" font-size="14.00">Tags Rendered</text>
+<text text-anchor="middle" x="336.14" y="-82.22" font-family="Times,serif" font-size="14.00">on Surface</text>
+</g>
+<!-- D&#45;&gt;A -->
+<g id="edge5" class="edge">
+<title>D-&gt;A</title>
+<path fill="none" stroke="black" d="M403.02,-32.24C342.79,-14.71 226.3,10.05 137.01,-26.82 106.56,-39.39 80.84,-67.3 64.21,-89.22"/>
+<polygon fill="black" stroke="black" points="61.41,-87.12 58.34,-97.26 67.06,-91.25 61.41,-87.12"/>
+<text text-anchor="middle" x="202.99" y="-47.82" font-family="Times,serif" font-size="14.00">✍️ </text>
+<text text-anchor="middle" x="202.99" y="-31.02" font-family="Times,serif" font-size="14.00">Revised</text>
+</g>
+<!-- E -->
+<g id="node4" class="node">
+<title>E</title>
+<path fill="#ffffee" stroke="#999999" d="M674.55,-174.62C674.55,-174.62 621.06,-174.62 621.06,-174.62 615.06,-174.62 609.06,-168.62 609.06,-162.62 609.06,-162.62 609.06,-128.22 609.06,-128.22 609.06,-122.22 615.06,-116.22 621.06,-116.22 621.06,-116.22 674.55,-116.22 674.55,-116.22 680.55,-116.22 686.55,-122.22 686.55,-128.22 686.55,-128.22 686.55,-162.62 686.55,-162.62 686.55,-168.62 680.55,-174.62 674.55,-174.62"/>
+<text text-anchor="middle" x="647.8" y="-158.02" font-family="Helvetica,sans-Serif" font-size="14.00">📬</text>
+<text text-anchor="middle" x="647.8" y="-141.22" font-family="Helvetica,sans-Serif" font-size="14.00">Feedback</text>
+<text text-anchor="middle" x="647.8" y="-124.42" font-family="Helvetica,sans-Serif" font-size="14.00">Collected</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge3" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="black" d="M484.9,-59.26C509.4,-68.28 541.12,-80.94 568.02,-94.82 578.42,-100.18 589.2,-106.53 599.32,-112.89"/>
+<polygon fill="black" stroke="black" points="597.21,-115.69 607.52,-118.14 600.99,-109.8 597.21,-115.69"/>
+<text text-anchor="middle" x="538.85" y="-115.82" font-family="Times,serif" font-size="14.00">Dismissed</text>
+<text text-anchor="middle" x="538.85" y="-99.02" font-family="Times,serif" font-size="14.00">(👍 or ❌)</text>
+</g>
+<!-- F -->
+<g id="node5" class="node">
+<title>F</title>
+<ellipse fill="none" stroke="gray" stroke-dasharray="5,2" cx="647.8" cy="-29.42" rx="54.79" ry="29.42"/>
+<text text-anchor="middle" x="647.8" y="-33.62" font-family="Helvetica,sans-Serif" font-size="14.00">No</text>
+<text text-anchor="middle" x="647.8" y="-16.82" font-family="Helvetica,sans-Serif" font-size="14.00">Feedback</text>
+</g>
+<!-- D&#45;&gt;F -->
+<g id="edge4" class="edge">
+<title>D-&gt;F</title>
+<path fill="none" stroke="black" d="M484.87,-42.25C512.49,-40.06 549.89,-37.1 581.78,-34.57"/>
+<polygon fill="black" stroke="black" points="582.06,-38.06 591.75,-33.78 581.5,-31.08 582.06,-38.06"/>
+</g>
+<!-- E&#45;&gt;B -->
+<g id="edge6" class="edge">
+<title>E-&gt;B</title>
+<path fill="none" stroke="#999999" stroke-dasharray="5,2" d="M608.58,-145.9C543.72,-146.34 408.02,-145.65 293.96,-134.42 289.57,-133.98 285.06,-133.47 280.52,-132.89"/>
+<polygon fill="#999999" stroke="#999999" points="281.09,-129.43 270.71,-131.55 280.15,-136.37 281.09,-129.43"/>
+<text text-anchor="middle" x="444" y="-165.81" font-family="Times,serif" font-size="14.00">Potential</text>
+<text text-anchor="middle" x="444" y="-149.01" font-family="Times,serif" font-size="14.00">future use</text>
+</g>
+</g>
+</svg>
