@@ -17,6 +17,7 @@ const explanationBox = document.getElementById("explanation-box");
 const nameBox = document.getElementById("fallacy-name");
 const textBox = document.getElementById("fallacy-description");
 let hoverTimeout = null;
+let activeFallacyElement = null;
 
 function isTouchDevice() {
   return (
@@ -30,6 +31,8 @@ function showExplanation(key, anchorElement) {
   const exp = explanations[key];
   nameBox.innerText = exp.name;
   textBox.innerText = exp.text;
+
+  activeFallacyElement = anchorElement; // 🔥 Track the source element
 
   // Move explanation box directly after anchor element
   anchorElement.insertAdjacentElement("afterend", explanationBox);
@@ -77,6 +80,14 @@ document.getElementById("btn-thanks").addEventListener("click", () => {
 });
 document.getElementById("btn-incorrect").addEventListener("click", () => {
   hideExplanation("incorrect");
+
+  if (activeFallacyElement) {
+    activeFallacyElement.classList.remove("fallacy", "pulse");
+    activeFallacyElement.style.background = "none";
+    activeFallacyElement.style.borderBottom = "none";
+    activeFallacyElement.style.cursor = "default";
+    activeFallacyElement = null;
+  }
 });
 
 // Handle ?highlight=f1 URL param
@@ -101,7 +112,8 @@ if (theme) {
 }
 
 // Suppress context for embed mode
-const isEmbed = new URLSearchParams(window.location.search).get("embed") === "true";
+const isEmbed =
+  new URLSearchParams(window.location.search).get("embed") === "true";
 if (isEmbed) {
   const context = document.getElementById("demo-context");
   if (context) {
