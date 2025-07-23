@@ -99,3 +99,12 @@ const theme = new URLSearchParams(window.location.search).get("theme");
 if (theme) {
   document.body.setAttribute("data-theme", theme);
 }
+
+// Suppress context for embed mode
+const isEmbed = new URLSearchParams(window.location.search).get("embed") === "true";
+if (isEmbed) {
+  const context = document.getElementById("demo-context");
+  if (context) {
+    context.style.display = "none";
+  }
+}

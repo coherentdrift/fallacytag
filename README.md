@@ -61,7 +61,7 @@ You can include parameters like `highlight` and `theme`:
 ></iframe>
 ```
 
-- `?embed=true` can be used to suppress explanatory context (if implemented).
+- `?embed=true` can be used to suppress explanatory context.
 - Adjust `height` based on your layout.
 
 </details>
