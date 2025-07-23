@@ -44,6 +44,22 @@ function hideExplanation(reason) {
   console.log("Dismissed with reason:", reason);
 }
 
+function dismissFallacyTag(reason) {
+  hideExplanation(reason);
+
+  if (activeFallacyElement) {
+    // Clone node to remove all listeners, then replace
+    const clone = activeFallacyElement.cloneNode(true);
+    clone.classList.remove("fallacy", "pulse");
+    clone.style.background = "none";
+    clone.style.borderBottom = "none";
+    clone.style.cursor = "default";
+
+    activeFallacyElement.replaceWith(clone);
+    activeFallacyElement = null;
+  }
+}
+
 document.querySelectorAll(".fallacy").forEach((el) => {
   const key = el.dataset.fallacy;
 
@@ -76,18 +92,10 @@ explanationBox.addEventListener("mouseleave", () => {
 });
 
 document.getElementById("btn-thanks").addEventListener("click", () => {
-  hideExplanation("thanks");
+  dismissFallacyTag("thanks");
 });
 document.getElementById("btn-incorrect").addEventListener("click", () => {
-  hideExplanation("incorrect");
-
-  if (activeFallacyElement) {
-    activeFallacyElement.classList.remove("fallacy", "pulse");
-    activeFallacyElement.style.background = "none";
-    activeFallacyElement.style.borderBottom = "none";
-    activeFallacyElement.style.cursor = "default";
-    activeFallacyElement = null;
-  }
+  dismissFallacyTag("incorrect");
 });
 
 // Handle ?highlight=f1 URL param
