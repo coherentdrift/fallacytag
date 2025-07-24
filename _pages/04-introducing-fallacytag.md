@@ -59,7 +59,7 @@ And some—if they’re in writing mode—may return to the source and revise it
 
 Each path keeps agency in the user’s hands. The tag never insists.
 
-FallacyTag allows users to mark a tag as helpful or incorrect, but whether that feedback can meaningfully improve the system is an open question.
+FallacyTag allows users to mark a tag as helpful or incorrect, but whether that feedback can meaningfully improve the system is [an open question](/fallacytag/pages/appendices/appendix-c/).
 
 ### 4.3 Related Work
 
