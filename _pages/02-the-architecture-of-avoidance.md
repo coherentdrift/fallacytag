@@ -73,7 +73,7 @@ FallacyTag is one such attempt—but it's not offered as proof of concept for th
 
 ----
 
-[Previous](/fallacytag/pages/01-what-you-are-reading/){: .btn } [Next](/fallacytag/pages/03/03-scaffolded-intelligence/){: .btn }
+[Previous](/fallacytag/pages/01-what-you-are-reading/){: .btn } [Next](/fallacytag/pages/03-scaffolded-intelligence/){: .btn }
 
 ----
 

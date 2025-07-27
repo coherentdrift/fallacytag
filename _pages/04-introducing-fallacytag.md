@@ -29,7 +29,7 @@ The nudge is quiet, contextual, and optional. You’re free to ignore it. Or to 
 
 **👉 Try it yourself**: [coherentdrift.github.io/fallacytag/demo](/fallacytag/demo/?theme=academic)
 
-The demo reveals more than an interface. The tagged text isn’t synthetic—it was generated using the prompt strategy [implied in the previous section](/fallacytag/pages/03/03-scaffolded-intelligence/#32-designing-within-limits), applied to a real published opinion article[^1].
+The demo reveals more than an interface. The tagged text isn’t synthetic—it was generated using the prompt strategy [implied in the previous section](/fallacytag/pages/03-scaffolded-intelligence/#32-designing-within-limits), applied to a real published opinion article[^1].
 
 What you’re seeing is not just a surface mockup, but an early sketch of what FallacyTag can become: a reasoning-aware layer that pairs content, critique, and context.
 
@@ -81,7 +81,7 @@ That’s the challenge we take up next.
 
 ---
 
-[Previous](/fallacytag/pages/03/03-scaffolded-intelligence/){: .btn } [Next](/fallacytag/pages/05-modalities-and-fit/){: .btn }
+[Previous](/fallacytag/pages/03-scaffolded-intelligence/){: .btn } [Next](/fallacytag/pages/05-modalities-and-fit/){: .btn }
 
 ---
 [^1]: The full prompt is available [inside the demo](/fallacytag/demo).
