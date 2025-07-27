@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Appendix C: On Learning from User Feedback"
-nav_order: 93
+nav_order: 3
 parent: Appendices
 ---
 
