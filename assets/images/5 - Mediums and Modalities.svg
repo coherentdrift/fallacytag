@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445pt" height="476pt" viewBox="0.00 0.00 444.85 476.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472)">
+<title>MediumModalityTree</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-472 440.85,-472 440.85,4 -4,4"/>
+<!-- Mediums -->
+<g id="node1" class="node">
+<title>Mediums</title>
+<ellipse fill="#e8eaf6" stroke="black" cx="30" cy="-234" rx="30" ry="18"/>
+<text text-anchor="middle" x="30" y="-231" font-family="Times,serif" font-size="10.00">Medium</text>
+</g>
+<!-- Text -->
+<g id="node2" class="node">
+<title>Text</title>
+<polygon fill="#e8eaf6" stroke="black" points="150,-387 96,-387 96,-351 150,-351 150,-387"/>
+<text text-anchor="middle" x="123" y="-366" font-family="Times,serif" font-size="10.00">Text</text>
+</g>
+<!-- Mediums&#45;&gt;Text -->
+<g id="edge1" class="edge">
+<title>Mediums-&gt;Text</title>
+<path fill="none" stroke="#7f7f7f" d="M42.34,-250.82C58.08,-274.18 86.69,-316.62 105,-343.78"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="102.85,-344.98 108.79,-349.41 106.91,-342.24 102.85,-344.98"/>
+</g>
+<!-- Audio -->
+<g id="node3" class="node">
+<title>Audio</title>
+<polygon fill="#e8eaf6" stroke="black" points="150,-252 96,-252 96,-216 150,-216 150,-252"/>
+<text text-anchor="middle" x="123" y="-231" font-family="Times,serif" font-size="10.00">Audio</text>
+</g>
+<!-- Mediums&#45;&gt;Audio -->
+<g id="edge2" class="edge">
+<title>Mediums-&gt;Audio</title>
+<path fill="none" stroke="#7f7f7f" d="M60.29,-234C68.88,-234 78.34,-234 87.23,-234"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="87.02,-236.45 94.02,-234 87.02,-231.55 87.02,-236.45"/>
+</g>
+<!-- Video -->
+<g id="node4" class="node">
+<title>Video</title>
+<polygon fill="#e8eaf6" stroke="black" points="150,-117 96,-117 96,-81 150,-81 150,-117"/>
+<text text-anchor="middle" x="123" y="-96" font-family="Times,serif" font-size="10.00">Video</text>
+</g>
+<!-- Mediums&#45;&gt;Video -->
+<g id="edge3" class="edge">
+<title>Mediums-&gt;Video</title>
+<path fill="none" stroke="#7f7f7f" d="M42.34,-217.18C58.08,-193.82 86.69,-151.38 105,-124.22"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="106.91,-125.76 108.79,-118.59 102.85,-123.02 106.91,-125.76"/>
+</g>
+<!-- Text1 -->
+<g id="node5" class="node">
+<title>Text1</title>
+<polygon fill="#f3e5f5" stroke="black" points="315.85,-468 207.66,-468 207.66,-432 315.85,-432 315.85,-468"/>
+<text text-anchor="middle" x="261.76" y="-453" font-family="Times,serif" font-size="10.00">Substack essay</text>
+<text text-anchor="middle" x="261.76" y="-441" font-family="Times,serif" font-size="10.00">(Produced, Persuasive)</text>
+</g>
+<!-- Text&#45;&gt;Text1 -->
+<g id="edge4" class="edge">
+<title>Text-&gt;Text1</title>
+<path fill="none" stroke="#7f7f7f" d="M141.59,-387.5C153.3,-398.96 169.51,-413.3 186,-423 190.37,-425.57 195.03,-427.96 199.8,-430.17"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="198.58,-432.31 205.98,-432.88 200.55,-427.82 198.58,-432.31"/>
+</g>
+<!-- Text2 -->
+<g id="node6" class="node">
+<title>Text2</title>
+<polygon fill="#f3e5f5" stroke="black" points="337.52,-414 186,-414 186,-378 337.52,-378 337.52,-414"/>
+<text text-anchor="middle" x="261.76" y="-399" font-family="Times,serif" font-size="10.00">Reddit thread (r/ChangeMyView)</text>
+<text text-anchor="middle" x="261.76" y="-387" font-family="Times,serif" font-size="10.00">(Dialogic, Asynchronous)</text>
+</g>
+<!-- Text&#45;&gt;Text2 -->
+<g id="edge5" class="edge">
+<title>Text-&gt;Text2</title>
+<path fill="none" stroke="#7f7f7f" d="M150.37,-374.21C158.37,-375.79 167.63,-377.61 177.31,-379.53"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="176.7,-381.9 184.04,-380.85 177.65,-377.09 176.7,-381.9"/>
+</g>
+<!-- Text3 -->
+<g id="node7" class="node">
+<title>Text3</title>
+<polygon fill="#f3e5f5" stroke="black" points="325.01,-360 198.5,-360 198.5,-324 325.01,-324 325.01,-360"/>
+<text text-anchor="middle" x="261.76" y="-345" font-family="Times,serif" font-size="10.00">YouTube comments</text>
+<text text-anchor="middle" x="261.76" y="-333" font-family="Times,serif" font-size="10.00">(Performative, Adversarial)</text>
+</g>
+<!-- Text&#45;&gt;Text3 -->
+<g id="edge6" class="edge">
+<title>Text-&gt;Text3</title>
+<path fill="none" stroke="#7f7f7f" d="M150.37,-363.79C161.79,-361.54 175.76,-358.78 189.87,-355.99"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="190.3,-358.41 196.7,-354.65 189.35,-353.6 190.3,-358.41"/>
+</g>
+<!-- Audio1 -->
+<g id="node8" class="node">
+<title>Audio1</title>
+<polygon fill="#f3e5f5" stroke="black" points="314.05,-306 209.46,-306 209.46,-270 314.05,-270 314.05,-306"/>
+<text text-anchor="middle" x="261.76" y="-291" font-family="Times,serif" font-size="10.00">Overcast podcast</text>
+<text text-anchor="middle" x="261.76" y="-279" font-family="Times,serif" font-size="10.00">(Scripted Monologue)</text>
+</g>
+<!-- Audio&#45;&gt;Audio1 -->
+<g id="edge7" class="edge">
+<title>Audio-&gt;Audio1</title>
+<path fill="none" stroke="#7f7f7f" d="M150.39,-245.94C161.34,-250.78 174.22,-256.31 186,-261 190.99,-262.99 196.2,-265 201.44,-266.97"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="200.28,-269.16 207.7,-269.31 202,-264.57 200.28,-269.16"/>
+</g>
+<!-- Audio2 -->
+<g id="node9" class="node">
+<title>Audio2</title>
+<polygon fill="#f3e5f5" stroke="black" points="314.04,-252 209.47,-252 209.47,-216 314.04,-216 314.04,-252"/>
+<text text-anchor="middle" x="261.76" y="-237" font-family="Times,serif" font-size="10.00">X Spaces</text>
+<text text-anchor="middle" x="261.76" y="-225" font-family="Times,serif" font-size="10.00">(Real-Time Dialogue)</text>
+</g>
+<!-- Audio&#45;&gt;Audio2 -->
+<g id="edge8" class="edge">
+<title>Audio-&gt;Audio2</title>
+<path fill="none" stroke="#7f7f7f" d="M150.37,-234C164.77,-234 183.24,-234 200.92,-234"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="200.47,-236.45 207.47,-234 200.47,-231.55 200.47,-236.45"/>
+</g>
+<!-- Audio3 -->
+<g id="node10" class="node">
+<title>Audio3</title>
+<polygon fill="#f3e5f5" stroke="black" points="312.24,-198 211.27,-198 211.27,-162 312.24,-162 312.24,-198"/>
+<text text-anchor="middle" x="261.76" y="-183" font-family="Times,serif" font-size="10.00">Voicemail</text>
+<text text-anchor="middle" x="261.76" y="-171" font-family="Times,serif" font-size="10.00">(One-Way, Personal)</text>
+</g>
+<!-- Audio&#45;&gt;Audio3 -->
+<g id="edge9" class="edge">
+<title>Audio-&gt;Audio3</title>
+<path fill="none" stroke="#7f7f7f" d="M150.39,-222.06C161.34,-217.22 174.22,-211.69 186,-207 191.55,-204.79 197.37,-202.56 203.19,-200.37"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="204,-202.68 209.71,-197.95 202.29,-198.09 204,-202.68"/>
+</g>
+<!-- Video1 -->
+<g id="node11" class="node">
+<title>Video1</title>
+<polygon fill="#f3e5f5" stroke="black" points="325.02,-144 198.49,-144 198.49,-108 325.02,-108 325.02,-144"/>
+<text text-anchor="middle" x="261.76" y="-129" font-family="Times,serif" font-size="10.00">YouTube explainer</text>
+<text text-anchor="middle" x="261.76" y="-117" font-family="Times,serif" font-size="10.00">(Structured, Semi-Scripted)</text>
+</g>
+<!-- Video&#45;&gt;Video1 -->
+<g id="edge10" class="edge">
+<title>Video-&gt;Video1</title>
+<path fill="none" stroke="#7f7f7f" d="M150.37,-104.21C161.79,-106.46 175.76,-109.22 189.87,-112.01"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="189.35,-114.4 196.7,-113.35 190.3,-109.59 189.35,-114.4"/>
+</g>
+<!-- Video2 -->
+<g id="node12" class="node">
+<title>Video2</title>
+<polygon fill="#f3e5f5" stroke="black" points="306.12,-90 217.39,-90 217.39,-54 306.12,-54 306.12,-90"/>
+<text text-anchor="middle" x="261.76" y="-75" font-family="Times,serif" font-size="10.00">Zoom meeting</text>
+<text text-anchor="middle" x="261.76" y="-63" font-family="Times,serif" font-size="10.00">(Live, Interactive)</text>
+</g>
+<!-- Video&#45;&gt;Video2 -->
+<g id="edge11" class="edge">
+<title>Video-&gt;Video2</title>
+<path fill="none" stroke="#7f7f7f" d="M150.37,-93.79C166.94,-90.52 188.9,-86.19 208.86,-82.25"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="209.1,-84.7 215.49,-80.94 208.15,-79.89 209.1,-84.7"/>
+</g>
+<!-- Video3 -->
+<g id="node13" class="node">
+<title>Video3</title>
+<polygon fill="#f3e5f5" stroke="black" points="317.24,-36 206.27,-36 206.27,0 317.24,0 317.24,-36"/>
+<text text-anchor="middle" x="261.76" y="-21" font-family="Times,serif" font-size="10.00">Twitch stream</text>
+<text text-anchor="middle" x="261.76" y="-9" font-family="Times,serif" font-size="10.00">(Performative, Chaotic)</text>
+</g>
+<!-- Video&#45;&gt;Video3 -->
+<g id="edge12" class="edge">
+<title>Video-&gt;Video3</title>
+<path fill="none" stroke="#7f7f7f" d="M141.59,-80.5C153.3,-69.04 169.51,-54.7 186,-45 189.86,-42.73 193.95,-40.6 198.15,-38.61"/>
+<polygon fill="#7f7f7f" stroke="#7f7f7f" points="199.02,-40.9 204.4,-35.8 197.01,-36.43 199.02,-40.9"/>
+</g>
+<!-- Modality -->
+<g id="node14" class="node">
+<title>Modality</title>
+<ellipse fill="#f3e5f5" stroke="black" cx="405.18" cy="-234" rx="31.67" ry="18"/>
+<text text-anchor="middle" x="405.18" y="-231" font-family="Times,serif" font-size="10.00">Modality</text>
+</g>
+<!-- Text1&#45;&gt;Modality -->
+<g id="edge13" class="edge">
+<title>Text1-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M316.1,-437.45C324,-433.79 331.49,-429.07 337.52,-423 385.56,-374.6 399.12,-289.52 402.83,-252.3"/>
+</g>
+<!-- Text2&#45;&gt;Modality -->
+<g id="edge14" class="edge">
+<title>Text2-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M325.65,-377.57C329.9,-375.06 333.91,-372.22 337.52,-369 373.57,-336.78 392.33,-280.62 399.97,-251.96"/>
+</g>
+<!-- Text3&#45;&gt;Modality -->
+<g id="edge15" class="edge">
+<title>Text3-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M322.98,-323.57C328.08,-321.03 333,-318.18 337.52,-315 361.92,-297.78 382.42,-269.38 394,-251.19"/>
+</g>
+<!-- Audio1&#45;&gt;Modality -->
+<g id="edge16" class="edge">
+<title>Audio1-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M314.33,-269.67C322.12,-266.81 330.04,-263.86 337.52,-261 351.28,-255.73 366.52,-249.58 378.95,-244.49"/>
+</g>
+<!-- Audio2&#45;&gt;Modality -->
+<g id="edge17" class="edge">
+<title>Audio2-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M314.22,-234C333.96,-234 355.87,-234 373.13,-234"/>
+</g>
+<!-- Audio3&#45;&gt;Modality -->
+<g id="edge18" class="edge">
+<title>Audio3-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M312.72,-197.75C321.02,-200.78 329.53,-203.94 337.52,-207 351.28,-212.27 366.52,-218.42 378.95,-223.51"/>
+</g>
+<!-- Video1&#45;&gt;Modality -->
+<g id="edge19" class="edge">
+<title>Video1-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M322.98,-144.43C328.08,-146.97 333,-149.82 337.52,-153 361.92,-170.22 382.42,-198.62 394,-216.81"/>
+</g>
+<!-- Video2&#45;&gt;Modality -->
+<g id="edge20" class="edge">
+<title>Video2-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M306.56,-81.58C317.59,-85.58 328.77,-91.18 337.52,-99 373.57,-131.22 392.33,-187.38 399.97,-216.04"/>
+</g>
+<!-- Video3&#45;&gt;Modality -->
+<g id="edge21" class="edge">
+<title>Video3-&gt;Modality</title>
+<path fill="none" stroke="#7f7f7f" stroke-dasharray="5,2" d="M317.62,-31.28C324.96,-34.83 331.88,-39.32 337.52,-45 385.56,-93.4 399.12,-178.48 402.83,-215.7"/>
+</g>
+</g>
+</svg>
