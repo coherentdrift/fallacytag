@@ -25,7 +25,8 @@ Sections are being released incrementally. So far, the following are available:
 - ✅ 2: The Architecture of Avoidance  
 - ✅ 3: Scaffolded Intelligence: How LLMs Can Support Better Reasoning
 - ✅ 4: FallacyTag: A Gentle Loop for Sharper Thinking
-- ⏳ Sections 5–10: Coming soon  
+- ✅ 5: Mediums, Modalities and Fit
+- ⏳ Sections 6–10: Coming soon  
 
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
 

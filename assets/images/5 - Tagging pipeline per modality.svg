@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="644pt" height="386pt" viewBox="0.00 0.00 644.00 386.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 382.4)">
+<title>ModalityFlows</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-382.4 640,-382.4 640,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_text</title>
+<polygon fill="lightgrey" stroke="lightgrey" points="8,-8 8,-370.4 194,-370.4 194,-8 8,-8"/>
+<text text-anchor="middle" x="101" y="-355.6" font-family="Helvetica,sans-Serif" font-size="12.00">📝 Text Article</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_audio</title>
+<polygon fill="lightblue" stroke="lightblue" points="202,-8 202,-370.4 406,-370.4 406,-8 202,-8"/>
+<text text-anchor="middle" x="304" y="-355.6" font-family="Helvetica,sans-Serif" font-size="12.00">🎙️ Podcast Transcript</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_video</title>
+<polygon fill="lightyellow" stroke="lightyellow" points="414,-8 414,-370.4 628,-370.4 628,-8 414,-8"/>
+<text text-anchor="middle" x="521" y="-355.6" font-family="Helvetica,sans-Serif" font-size="12.00">🎥 Video + Captions</text>
+</g>
+<!-- T1 -->
+<g id="node1" class="node">
+<title>T1</title>
+<polygon fill="#f9f9f9" stroke="black" points="164.63,-340 71.37,-340 71.37,-304 164.63,-304 164.63,-340"/>
+<text text-anchor="middle" x="118" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">📄 Plaintext Input</text>
+</g>
+<!-- T2 -->
+<g id="node2" class="node">
+<title>T2</title>
+<polygon fill="#f9f9f9" stroke="black" points="157.97,-268 38.03,-268 38.03,-232 157.97,-232 157.97,-268"/>
+<text text-anchor="middle" x="98" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">🏷️ Tag Injected Inline</text>
+</g>
+<!-- T1&#45;&gt;T2 -->
+<g id="edge1" class="edge">
+<title>T1-&gt;T2</title>
+<path fill="none" stroke="black" d="M113.06,-303.7C110.92,-296.24 108.38,-287.32 105.99,-278.97"/>
+<polygon fill="black" stroke="black" points="109.42,-278.21 103.3,-269.56 102.68,-280.14 109.42,-278.21"/>
+</g>
+<!-- T3 -->
+<g id="node3" class="node">
+<title>T3</title>
+<polygon fill="#f9f9f9" stroke="black" points="165.99,-196 16.01,-196 16.01,-160 165.99,-160 165.99,-196"/>
+<text text-anchor="middle" x="91" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">💬 Tap to Expand Explanation</text>
+</g>
+<!-- T2&#45;&gt;T3 -->
+<g id="edge2" class="edge">
+<title>T2-&gt;T3</title>
+<path fill="none" stroke="black" d="M96.27,-231.7C95.54,-224.41 94.67,-215.73 93.85,-207.54"/>
+<polygon fill="black" stroke="black" points="97.34,-207.21 92.86,-197.61 90.37,-207.91 97.34,-207.21"/>
+</g>
+<!-- T4 -->
+<g id="node4" class="node">
+<title>T4</title>
+<polygon fill="#f9f9f9" stroke="black" points="162.47,-124 27.53,-124 27.53,-88 162.47,-88 162.47,-124"/>
+<text text-anchor="middle" x="95" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">🧍 User Feedback Options</text>
+</g>
+<!-- T3&#45;&gt;T4 -->
+<g id="edge3" class="edge">
+<title>T3-&gt;T4</title>
+<path fill="none" stroke="black" d="M91.99,-159.7C92.41,-152.41 92.9,-143.73 93.37,-135.54"/>
+<polygon fill="black" stroke="black" points="96.86,-135.8 93.94,-125.62 89.87,-135.4 96.86,-135.8"/>
+</g>
+<!-- T5 -->
+<g id="node5" class="node">
+<title>T5</title>
+<polygon fill="#f9f9f9" stroke="black" points="176.58,-52 39.42,-52 39.42,-16 176.58,-16 176.58,-52"/>
+<text text-anchor="middle" x="108" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">📬 Rich Feedback Possible</text>
+</g>
+<!-- T4&#45;&gt;T5 -->
+<g id="edge4" class="edge">
+<title>T4-&gt;T5</title>
+<path fill="none" stroke="black" d="M98.21,-87.7C99.58,-80.32 101.22,-71.52 102.75,-63.25"/>
+<polygon fill="black" stroke="black" points="106.16,-64.06 104.55,-53.59 99.28,-62.79 106.16,-64.06"/>
+</g>
+<!-- T5&#45;&gt;T1 -->
+<g id="edge13" class="edge">
+<title>T5-&gt;T1</title>
+<path fill="none" stroke="gray" stroke-dasharray="1,5" d="M137.92,-52.38C150.43,-61.32 163.72,-73.42 171,-88 185.33,-116.67 174.11,-127.96 175,-160 176.34,-208.11 187,-224.22 167,-268 162.41,-278.05 155.18,-287.45 147.66,-295.48"/>
+<polygon fill="gray" stroke="gray" points="145.19,-292.99 140.58,-302.53 150.13,-297.95 145.19,-292.99"/>
+</g>
+<!-- A1 -->
+<g id="node6" class="node">
+<title>A1</title>
+<polygon fill="#f9f9f9" stroke="black" points="380.86,-340 253.14,-340 253.14,-304 380.86,-304 380.86,-340"/>
+<text text-anchor="middle" x="317" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">🎧 Audio Transcript Input</text>
+</g>
+<!-- A2 -->
+<g id="node7" class="node">
+<title>A2</title>
+<polygon fill="#f9f9f9" stroke="black" points="375.53,-268 224.47,-268 224.47,-232 375.53,-232 375.53,-268"/>
+<text text-anchor="middle" x="300" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">🏷️ Tag Linked to Timestamp</text>
+</g>
+<!-- A1&#45;&gt;A2 -->
+<g id="edge5" class="edge">
+<title>A1-&gt;A2</title>
+<path fill="none" stroke="black" d="M312.8,-303.7C311.01,-296.32 308.87,-287.52 306.86,-279.25"/>
+<polygon fill="black" stroke="black" points="310.27,-278.47 304.51,-269.58 303.47,-280.12 310.27,-278.47"/>
+</g>
+<!-- A3 -->
+<g id="node8" class="node">
+<title>A3</title>
+<polygon fill="#f9f9f9" stroke="black" points="362.36,-196 229.64,-196 229.64,-160 362.36,-160 362.36,-196"/>
+<text text-anchor="middle" x="296" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">🔊 Voice or Button Trigger</text>
+</g>
+<!-- A2&#45;&gt;A3 -->
+<g id="edge6" class="edge">
+<title>A2-&gt;A3</title>
+<path fill="none" stroke="black" d="M299.01,-231.7C298.59,-224.41 298.1,-215.73 297.63,-207.54"/>
+<polygon fill="black" stroke="black" points="301.13,-207.4 297.06,-197.62 294.14,-207.8 301.13,-207.4"/>
+</g>
+<!-- A4 -->
+<g id="node9" class="node">
+<title>A4</title>
+<polygon fill="#f9f9f9" stroke="black" points="377.87,-124 210.13,-124 210.13,-88 377.87,-88 377.87,-124"/>
+<text text-anchor="middle" x="294" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">🧍 Feedback – skip / thumbs only</text>
+</g>
+<!-- A3&#45;&gt;A4 -->
+<g id="edge7" class="edge">
+<title>A3-&gt;A4</title>
+<path fill="none" stroke="black" d="M295.51,-159.7C295.3,-152.41 295.05,-143.73 294.82,-135.54"/>
+<polygon fill="black" stroke="black" points="298.32,-135.51 294.53,-125.62 291.32,-135.71 298.32,-135.51"/>
+</g>
+<!-- A5 -->
+<g id="node10" class="node">
+<title>A5</title>
+<polygon fill="#f9f9f9" stroke="black" points="380.42,-52 241.58,-52 241.58,-16 380.42,-16 380.42,-52"/>
+<text text-anchor="middle" x="311" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">📬 Partial Feedback at Best</text>
+</g>
+<!-- A4&#45;&gt;A5 -->
+<g id="edge8" class="edge">
+<title>A4-&gt;A5</title>
+<path fill="none" stroke="black" d="M298.2,-87.7C299.99,-80.32 302.13,-71.52 304.14,-63.25"/>
+<polygon fill="black" stroke="black" points="307.53,-64.12 306.49,-53.58 300.73,-62.47 307.53,-64.12"/>
+</g>
+<!-- A5&#45;&gt;A1 -->
+<g id="edge14" class="edge">
+<title>A5-&gt;A1</title>
+<path fill="none" stroke="gray" stroke-dasharray="1,5" d="M350.18,-52.45C364.45,-60.98 379.04,-72.74 387,-88 405.5,-123.46 402.81,-232.18 385,-268 379.34,-279.39 369.94,-289.06 359.91,-296.89"/>
+<polygon fill="gray" stroke="gray" points="357.93,-294.01 351.85,-302.69 362.01,-299.7 357.93,-294.01"/>
+</g>
+<!-- V1 -->
+<g id="node11" class="node">
+<title>V1</title>
+<polygon fill="#f9f9f9" stroke="black" points="605.08,-340 452.92,-340 452.92,-304 605.08,-304 605.08,-340"/>
+<text text-anchor="middle" x="529" y="-319" font-family="Helvetica,sans-Serif" font-size="10.00">📼 Auto-Captions or Transcript</text>
+</g>
+<!-- V2 -->
+<g id="node12" class="node">
+<title>V2</title>
+<polygon fill="#f9f9f9" stroke="black" points="597.04,-268 430.96,-268 430.96,-232 597.04,-232 597.04,-268"/>
+<text text-anchor="middle" x="514" y="-247" font-family="Helvetica,sans-Serif" font-size="10.00">🏷️ Tag Floated in Subtitle Layer</text>
+</g>
+<!-- V1&#45;&gt;V2 -->
+<g id="edge9" class="edge">
+<title>V1-&gt;V2</title>
+<path fill="none" stroke="black" d="M525.29,-303.7C523.71,-296.32 521.83,-287.52 520.05,-279.25"/>
+<polygon fill="black" stroke="black" points="523.5,-278.63 517.98,-269.58 516.66,-280.1 523.5,-278.63"/>
+</g>
+<!-- V3 -->
+<g id="node13" class="node">
+<title>V3</title>
+<polygon fill="#f9f9f9" stroke="black" points="590.87,-196 433.13,-196 433.13,-160 590.87,-160 590.87,-196"/>
+<text text-anchor="middle" x="512" y="-175" font-family="Helvetica,sans-Serif" font-size="10.00">👆 Hover or Tap for Explanation</text>
+</g>
+<!-- V2&#45;&gt;V3 -->
+<g id="edge10" class="edge">
+<title>V2-&gt;V3</title>
+<path fill="none" stroke="black" d="M513.51,-231.7C513.3,-224.41 513.05,-215.73 512.82,-207.54"/>
+<polygon fill="black" stroke="black" points="516.32,-207.51 512.53,-197.62 509.32,-207.71 516.32,-207.51"/>
+</g>
+<!-- V4 -->
+<g id="node14" class="node">
+<title>V4</title>
+<polygon fill="#f9f9f9" stroke="black" points="597.91,-124 424.09,-124 424.09,-88 597.91,-88 597.91,-124"/>
+<text text-anchor="middle" x="511" y="-103" font-family="Helvetica,sans-Serif" font-size="10.00">🧍 Feedback: UI Prompt or Dismiss</text>
+</g>
+<!-- V3&#45;&gt;V4 -->
+<g id="edge11" class="edge">
+<title>V3-&gt;V4</title>
+<path fill="none" stroke="black" d="M511.75,-159.7C511.65,-152.41 511.52,-143.73 511.41,-135.54"/>
+<polygon fill="black" stroke="black" points="514.91,-135.57 511.27,-125.62 507.91,-135.67 514.91,-135.57"/>
+</g>
+<!-- V5 -->
+<g id="node15" class="node">
+<title>V5</title>
+<polygon fill="#f9f9f9" stroke="black" points="619.6,-52 422.4,-52 422.4,-16 619.6,-16 619.6,-52"/>
+<text text-anchor="middle" x="521" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">📬 Feedback Quality Depends on Timing</text>
+</g>
+<!-- V4&#45;&gt;V5 -->
+<g id="edge12" class="edge">
+<title>V4-&gt;V5</title>
+<path fill="none" stroke="black" d="M513.47,-87.7C514.53,-80.32 515.78,-71.52 516.96,-63.25"/>
+<polygon fill="black" stroke="black" points="520.39,-64 518.34,-53.6 513.46,-63.01 520.39,-64"/>
+</g>
+<!-- V5&#45;&gt;V1 -->
+<g id="edge15" class="edge">
+<title>V5-&gt;V1</title>
+<path fill="none" stroke="gray" stroke-dasharray="1,5" d="M567,-52.26C582.55,-60.57 598.19,-72.23 607,-88 646,-157.85 643.47,-197.32 606,-268 599.65,-279.99 589.23,-289.8 578.09,-297.57"/>
+<polygon fill="gray" stroke="gray" points="576.43,-294.47 569.9,-302.81 580.21,-300.37 576.43,-294.47"/>
+</g>
+</g>
+</svg>

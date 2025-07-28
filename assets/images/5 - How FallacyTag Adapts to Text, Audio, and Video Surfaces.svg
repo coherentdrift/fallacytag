@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="582pt" height="260pt" viewBox="0.00 0.00 582.32 260.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 256)">
+<title>FallacyTagArchitecture</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-256 578.32,-256 578.32,4 -4,4"/>
+<!-- Core -->
+<g id="node1" class="node">
+<title>Core</title>
+<polygon fill="#d0e1ff" stroke="black" stroke-width="2" points="351.63,-252 192.5,-252 192.5,-216 351.63,-216 351.63,-252"/>
+<text text-anchor="middle" x="272.07" y="-237" font-family="Helvetica,sans-Serif" font-size="10.00">Reasoning Core</text>
+<text text-anchor="middle" x="272.07" y="-225" font-family="Helvetica,sans-Serif" font-size="10.00">Fallacy Detection + Tagging API</text>
+</g>
+<!-- Text -->
+<g id="node2" class="node">
+<title>Text</title>
+<polygon fill="#e8f8e0" stroke="black" points="160.51,-180 13.62,-180 13.62,-144 160.51,-144 160.51,-180"/>
+<text text-anchor="middle" x="87.07" y="-165" font-family="Helvetica,sans-Serif" font-size="10.00">Text Adapter</text>
+<text text-anchor="middle" x="87.07" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">(parses + aligns written input)</text>
+</g>
+<!-- Core&#45;&#45;Text -->
+<g id="edge1" class="edge">
+<title>Core--Text</title>
+<path fill="none" stroke="black" d="M225.86,-215.52C197.5,-204.79 161.32,-191.09 133,-180.38"/>
+</g>
+<!-- Audio -->
+<g id="node3" class="node">
+<title>Audio</title>
+<polygon fill="#e8f8e0" stroke="black" points="365.52,-180 178.62,-180 178.62,-144 365.52,-144 365.52,-180"/>
+<text text-anchor="middle" x="272.07" y="-165" font-family="Helvetica,sans-Serif" font-size="10.00">Audio Adapter</text>
+<text text-anchor="middle" x="272.07" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">(operates on transcripts + timestamps)</text>
+</g>
+<!-- Core&#45;&#45;Audio -->
+<g id="edge2" class="edge">
+<title>Core--Audio</title>
+<path fill="none" stroke="black" d="M272.07,-215.7C272.07,-204.85 272.07,-190.92 272.07,-180.1"/>
+</g>
+<!-- Video -->
+<g id="node4" class="node">
+<title>Video</title>
+<polygon fill="#e8f8e0" stroke="black" points="574.32,-180 383.81,-180 383.81,-144 574.32,-144 574.32,-180"/>
+<text text-anchor="middle" x="479.07" y="-165" font-family="Helvetica,sans-Serif" font-size="10.00">Video Adapter</text>
+<text text-anchor="middle" x="479.07" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00">(synchronizes with captions/transcripts)</text>
+</g>
+<!-- Core&#45;&#45;Video -->
+<g id="edge3" class="edge">
+<title>Core--Video</title>
+<path fill="none" stroke="black" d="M323.77,-215.52C355.5,-204.79 395.99,-191.09 427.67,-180.38"/>
+</g>
+<!-- Inline -->
+<g id="node5" class="node">
+<title>Inline</title>
+<polygon fill="#fffbe6" stroke="black" points="174.13,-108 0,-108 0,-72 174.13,-72 174.13,-108"/>
+<text text-anchor="middle" x="87.07" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">Inline UI</text>
+<text text-anchor="middle" x="87.07" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">(embedded tags + hover/click tools)</text>
+</g>
+<!-- Text&#45;&#45;Inline -->
+<g id="edge4" class="edge">
+<title>Text--Inline</title>
+<path fill="none" stroke="black" d="M87.07,-143.7C87.07,-132.85 87.07,-118.92 87.07,-108.1"/>
+</g>
+<!-- Summary -->
+<g id="node6" class="node">
+<title>Summary</title>
+<polygon fill="#fffbe6" stroke="black" points="344.54,-108 199.6,-108 199.6,-72 344.54,-72 344.54,-108"/>
+<text text-anchor="middle" x="272.07" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">Transcript UI</text>
+<text text-anchor="middle" x="272.07" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">(tag timeline or review mode)</text>
+</g>
+<!-- Audio&#45;&#45;Summary -->
+<g id="edge6" class="edge">
+<title>Audio--Summary</title>
+<path fill="none" stroke="black" d="M272.07,-143.7C272.07,-132.85 272.07,-118.92 272.07,-108.1"/>
+</g>
+<!-- Captions -->
+<g id="node7" class="node">
+<title>Captions</title>
+<polygon fill="#fffbe6" stroke="black" points="572.11,-108 386.02,-108 386.02,-72 572.11,-72 572.11,-108"/>
+<text text-anchor="middle" x="479.07" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">Caption UI</text>
+<text text-anchor="middle" x="479.07" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">(overlay annotations / transcript panel)</text>
+</g>
+<!-- Video&#45;&#45;Captions -->
+<g id="edge8" class="edge">
+<title>Video--Captions</title>
+<path fill="none" stroke="black" d="M479.07,-143.7C479.07,-132.85 479.07,-118.92 479.07,-108.1"/>
+</g>
+<!-- Browser -->
+<g id="node8" class="node">
+<title>Browser</title>
+<polygon fill="#f0f0f0" stroke="black" points="148.97,-36 25.17,-36 25.17,0 148.97,0 148.97,-36"/>
+<text text-anchor="middle" x="87.07" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">🌐 Browser Extension</text>
+<text text-anchor="middle" x="87.07" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">(DOM-injected overlays)</text>
+</g>
+<!-- Inline&#45;&#45;Browser -->
+<g id="edge5" class="edge">
+<title>Inline--Browser</title>
+<path fill="none" stroke="black" d="M87.07,-71.7C87.07,-60.85 87.07,-46.92 87.07,-36.1"/>
+</g>
+<!-- Podcast -->
+<g id="node9" class="node">
+<title>Podcast</title>
+<polygon fill="#f0f0f0" stroke="black" points="351.48,-36 192.65,-36 192.65,0 351.48,0 351.48,-36"/>
+<text text-anchor="middle" x="272.07" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">🎙️ Podcast Player</text>
+<text text-anchor="middle" x="272.07" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">(visual transcript, timeline index)</text>
+</g>
+<!-- Summary&#45;&#45;Podcast -->
+<g id="edge7" class="edge">
+<title>Summary--Podcast</title>
+<path fill="none" stroke="black" d="M272.07,-71.7C272.07,-60.85 272.07,-46.92 272.07,-36.1"/>
+</g>
+<!-- YouTube -->
+<g id="node10" class="node">
+<title>YouTube</title>
+<polygon fill="#f0f0f0" stroke="black" points="548.47,-36 409.66,-36 409.66,0 548.47,0 548.47,-36"/>
+<text text-anchor="middle" x="479.07" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">🎥 YouTube / LMS / Zoom</text>
+<text text-anchor="middle" x="479.07" y="-9" font-family="Helvetica,sans-Serif" font-size="10.00">(timed tags, transcript sync)</text>
+</g>
+<!-- Captions&#45;&#45;YouTube -->
+<g id="edge9" class="edge">
+<title>Captions--YouTube</title>
+<path fill="none" stroke="black" d="M479.07,-71.7C479.07,-60.85 479.07,-46.92 479.07,-36.1"/>
+</g>
+</g>
+</svg>
