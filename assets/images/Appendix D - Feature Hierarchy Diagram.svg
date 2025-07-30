@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="423pt" height="800pt" viewBox="0.00 0.00 422.56 800.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 796)">
+<title>FallacyTag</title>
+<polygon fill="#ffffff" stroke="none" points="-4,4 -4,-796 418.56,-796 418.56,4 -4,4"/>
+<!-- FallacyTag -->
+<g id="node1" class="node">
+<title>FallacyTag</title>
+<polygon fill="#d9e3f0" stroke="black" points="121.04,-414 0,-414 0,-378 121.04,-378 121.04,-414"/>
+<text text-anchor="middle" x="60.52" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">FallacyTag Architecture</text>
+</g>
+<!-- Privacy -->
+<g id="node2" class="node">
+<title>Privacy</title>
+<polygon fill="#f0f8ff" stroke="black" points="248.07,-711 157.04,-711 157.04,-675 248.07,-675 248.07,-711"/>
+<text text-anchor="middle" x="202.56" y="-690" font-family="Helvetica,sans-Serif" font-size="10.00">Privacy Handling</text>
+</g>
+<!-- FallacyTag&#45;&gt;Privacy -->
+<g id="edge1" class="edge">
+<title>FallacyTag-&gt;Privacy</title>
+<path fill="none" stroke="black" d="M70.07,-414.13C93.6,-464.05 159.49,-603.79 188.06,-664.38"/>
+<polygon fill="black" stroke="black" points="184.86,-665.81 192.3,-673.36 191.2,-662.82 184.86,-665.81"/>
+</g>
+<!-- Inference -->
+<g id="node3" class="node">
+<title>Inference</title>
+<polygon fill="#f5fff0" stroke="black" points="243.91,-549 161.2,-549 161.2,-513 243.91,-513 243.91,-549"/>
+<text text-anchor="middle" x="202.56" y="-528" font-family="Helvetica,sans-Serif" font-size="10.00">Inference Type</text>
+</g>
+<!-- FallacyTag&#45;&gt;Inference -->
+<g id="edge2" class="edge">
+<title>FallacyTag-&gt;Inference</title>
+<path fill="none" stroke="black" d="M80.7,-414.49C105,-437.92 147.03,-478.44 174.57,-504.98"/>
+<polygon fill="black" stroke="black" points="171.89,-507.26 181.52,-511.68 176.75,-502.22 171.89,-507.26"/>
+</g>
+<!-- Tagging -->
+<g id="node4" class="node">
+<title>Tagging</title>
+<polygon fill="#fffaf0" stroke="black" points="239.18,-414 165.93,-414 165.93,-378 239.18,-378 239.18,-414"/>
+<text text-anchor="middle" x="202.56" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">Tag Strategy</text>
+</g>
+<!-- FallacyTag&#45;&gt;Tagging -->
+<g id="edge3" class="edge">
+<title>FallacyTag-&gt;Tagging</title>
+<path fill="none" stroke="black" d="M121.31,-396C132.22,-396 143.47,-396 153.97,-396"/>
+<polygon fill="black" stroke="black" points="153.93,-399.5 163.93,-396 153.93,-392.5 153.93,-399.5"/>
+</g>
+<!-- UI -->
+<g id="node5" class="node">
+<title>UI</title>
+<polygon fill="#f8f0ff" stroke="black" points="240.57,-279 164.54,-279 164.54,-243 240.57,-243 240.57,-279"/>
+<text text-anchor="middle" x="202.56" y="-258" font-family="Helvetica,sans-Serif" font-size="10.00">UI Integration</text>
+</g>
+<!-- FallacyTag&#45;&gt;UI -->
+<g id="edge4" class="edge">
+<title>FallacyTag-&gt;UI</title>
+<path fill="none" stroke="black" d="M80.7,-377.51C105,-354.08 147.03,-313.56 174.57,-287.02"/>
+<polygon fill="black" stroke="black" points="176.75,-289.78 181.52,-280.32 171.89,-284.74 176.75,-289.78"/>
+</g>
+<!-- Feedback -->
+<g id="node6" class="node">
+<title>Feedback</title>
+<polygon fill="#f0ffff" stroke="black" points="242.79,-117 162.32,-117 162.32,-81 242.79,-81 242.79,-117"/>
+<text text-anchor="middle" x="202.56" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00">Feedback Use</text>
+</g>
+<!-- FallacyTag&#45;&gt;Feedback -->
+<g id="edge5" class="edge">
+<title>FallacyTag-&gt;Feedback</title>
+<path fill="none" stroke="black" d="M70.07,-377.87C93.6,-327.95 159.49,-188.21 188.06,-127.62"/>
+<polygon fill="black" stroke="black" points="191.2,-129.18 192.3,-118.64 184.86,-126.19 191.2,-129.18"/>
+</g>
+<!-- P1 -->
+<g id="node7" class="node">
+<title>P1</title>
+<polygon fill="lightgrey" stroke="black" points="380.11,-792 318.53,-792 318.53,-756 380.11,-756 380.11,-792"/>
+<text text-anchor="middle" x="349.32" y="-771" font-family="Helvetica,sans-Serif" font-size="10.00">Local-only</text>
+</g>
+<!-- Privacy&#45;&gt;P1 -->
+<g id="edge6" class="edge">
+<title>Privacy-&gt;P1</title>
+<path fill="none" stroke="black" d="M228.16,-711.32C243.72,-722.43 264.52,-736.46 284.07,-747 291.63,-751.07 299.93,-754.96 307.98,-758.45"/>
+<polygon fill="black" stroke="black" points="306.37,-761.57 316.94,-762.21 309.07,-755.12 306.37,-761.57"/>
+</g>
+<!-- P2 -->
+<g id="node8" class="node">
+<title>P2</title>
+<polygon fill="lightgrey" stroke="black" points="390.39,-738 308.24,-738 308.24,-702 390.39,-702 390.39,-738"/>
+<text text-anchor="middle" x="349.32" y="-717" font-family="Helvetica,sans-Serif" font-size="10.00">Session-based</text>
+</g>
+<!-- Privacy&#45;&gt;P2 -->
+<g id="edge7" class="edge">
+<title>Privacy-&gt;P2</title>
+<path fill="none" stroke="black" d="M248.57,-701.39C263.79,-704.24 280.92,-707.43 296.62,-710.36"/>
+<polygon fill="black" stroke="black" points="295.8,-713.76 306.27,-712.16 297.08,-706.88 295.8,-713.76"/>
+</g>
+<!-- P3 -->
+<g id="node9" class="node">
+<title>P3</title>
+<polygon fill="lightgrey" stroke="black" points="388.17,-684 310.47,-684 310.47,-648 388.17,-648 388.17,-684"/>
+<text text-anchor="middle" x="349.32" y="-663" font-family="Helvetica,sans-Serif" font-size="10.00">Identity-linked</text>
+</g>
+<!-- Privacy&#45;&gt;P3 -->
+<g id="edge8" class="edge">
+<title>Privacy-&gt;P3</title>
+<path fill="none" stroke="black" d="M248.57,-684.61C264.62,-681.61 282.77,-678.23 299.15,-675.17"/>
+<polygon fill="black" stroke="black" points="299.48,-678.67 308.67,-673.39 298.2,-671.79 299.48,-678.67"/>
+</g>
+<!-- I1 -->
+<g id="node10" class="node">
+<title>I1</title>
+<polygon fill="lightgrey" stroke="black" points="384.27,-630 314.36,-630 314.36,-594 384.27,-594 384.27,-630"/>
+<text text-anchor="middle" x="349.32" y="-609" font-family="Helvetica,sans-Serif" font-size="10.00">Prompt-only</text>
+</g>
+<!-- Inference&#45;&gt;I1 -->
+<g id="edge9" class="edge">
+<title>Inference-&gt;I1</title>
+<path fill="none" stroke="black" d="M228.16,-549.32C243.72,-560.43 264.52,-574.46 284.07,-585 290.29,-588.35 297.02,-591.58 303.7,-594.57"/>
+<polygon fill="black" stroke="black" points="302.11,-597.69 312.68,-598.44 304.89,-591.27 302.11,-597.69"/>
+</g>
+<!-- I2 -->
+<g id="node11" class="node">
+<title>I2</title>
+<polygon fill="lightgrey" stroke="black" points="395.67,-576 302.96,-576 302.96,-540 395.67,-540 395.67,-576"/>
+<text text-anchor="middle" x="349.32" y="-555" font-family="Helvetica,sans-Serif" font-size="10.00">Session-adaptive</text>
+</g>
+<!-- Inference&#45;&gt;I2 -->
+<g id="edge10" class="edge">
+<title>Inference-&gt;I2</title>
+<path fill="none" stroke="black" d="M244.27,-538.59C258.87,-541.32 275.61,-544.44 291.34,-547.37"/>
+<polygon fill="black" stroke="black" points="290.61,-550.8 301.08,-549.19 291.89,-543.92 290.61,-550.8"/>
+</g>
+<!-- I3 -->
+<g id="node12" class="node">
+<title>I3</title>
+<polygon fill="lightgrey" stroke="black" points="381.22,-522 317.41,-522 317.41,-486 381.22,-486 381.22,-522"/>
+<text text-anchor="middle" x="349.32" y="-501" font-family="Helvetica,sans-Serif" font-size="10.00">Fine-tuned</text>
+</g>
+<!-- Inference&#45;&gt;I3 -->
+<g id="edge11" class="edge">
+<title>Inference-&gt;I3</title>
+<path fill="none" stroke="black" d="M244.27,-523.41C263.47,-519.83 286.38,-515.55 305.81,-511.93"/>
+<polygon fill="black" stroke="black" points="306.41,-515.38 315.6,-510.1 305.13,-508.5 306.41,-515.38"/>
+</g>
+<!-- T1 -->
+<g id="node13" class="node">
+<title>T1</title>
+<polygon fill="lightgrey" stroke="black" points="414.56,-468 284.07,-468 284.07,-432 414.56,-432 414.56,-468"/>
+<text text-anchor="middle" x="349.32" y="-447" font-family="Helvetica,sans-Serif" font-size="10.00">Symbolic (sentence-level)</text>
+</g>
+<!-- Tagging&#45;&gt;T1 -->
+<g id="edge12" class="edge">
+<title>Tagging-&gt;T1</title>
+<path fill="none" stroke="black" d="M239.34,-409.35C254.04,-414.83 271.47,-421.33 288.03,-427.51"/>
+<polygon fill="black" stroke="black" points="286.74,-430.76 297.33,-430.98 289.18,-424.21 286.74,-430.76"/>
+</g>
+<!-- T2 -->
+<g id="node14" class="node">
+<title>T2</title>
+<polygon fill="lightgrey" stroke="black" points="394.83,-414 303.8,-414 303.8,-378 394.83,-378 394.83,-414"/>
+<text text-anchor="middle" x="349.32" y="-393" font-family="Helvetica,sans-Serif" font-size="10.00">Discourse-aware</text>
+</g>
+<!-- Tagging&#45;&gt;T2 -->
+<g id="edge13" class="edge">
+<title>Tagging-&gt;T2</title>
+<path fill="none" stroke="black" d="M239.34,-396C255.21,-396 274.25,-396 291.96,-396"/>
+<polygon fill="black" stroke="black" points="291.84,-399.5 301.84,-396 291.84,-392.5 291.84,-399.5"/>
+</g>
+<!-- T3 -->
+<g id="node15" class="node">
+<title>T3</title>
+<polygon fill="lightgrey" stroke="black" points="395.12,-360 303.51,-360 303.51,-324 395.12,-324 395.12,-360"/>
+<text text-anchor="middle" x="349.32" y="-339" font-family="Helvetica,sans-Serif" font-size="10.00">Learned patterns</text>
+</g>
+<!-- Tagging&#45;&gt;T3 -->
+<g id="edge14" class="edge">
+<title>Tagging-&gt;T3</title>
+<path fill="none" stroke="black" d="M239.34,-382.65C255.36,-376.67 274.63,-369.49 292.48,-362.83"/>
+<polygon fill="black" stroke="black" points="293.52,-366.18 301.66,-359.4 291.07,-359.62 293.52,-366.18"/>
+</g>
+<!-- U1 -->
+<g id="node16" class="node">
+<title>U1</title>
+<polygon fill="lightgrey" stroke="black" points="394.83,-306 303.8,-306 303.8,-270 394.83,-270 394.83,-306"/>
+<text text-anchor="middle" x="349.32" y="-285" font-family="Helvetica,sans-Serif" font-size="10.00">Post-hoc Review</text>
+</g>
+<!-- UI&#45;&gt;U1 -->
+<g id="edge15" class="edge">
+<title>UI-&gt;U1</title>
+<path fill="none" stroke="black" d="M240.84,-267.95C256.5,-270.88 275.07,-274.34 292.32,-277.56"/>
+<polygon fill="black" stroke="black" points="291.46,-280.96 301.94,-279.35 292.75,-274.08 291.46,-280.96"/>
+</g>
+<!-- U2 -->
+<g id="node17" class="node">
+<title>U2</title>
+<polygon fill="lightgrey" stroke="black" points="387.89,-252 310.75,-252 310.75,-216 387.89,-216 387.89,-252"/>
+<text text-anchor="middle" x="349.32" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00">Inline Overlay</text>
+</g>
+<!-- UI&#45;&gt;U2 -->
+<g id="edge16" class="edge">
+<title>UI-&gt;U2</title>
+<path fill="none" stroke="black" d="M240.84,-254.05C258.61,-250.73 280.11,-246.72 299.2,-243.16"/>
+<polygon fill="black" stroke="black" points="299.73,-246.62 308.92,-241.35 298.45,-239.74 299.73,-246.62"/>
+</g>
+<!-- U3 -->
+<g id="node18" class="node">
+<title>U3</title>
+<polygon fill="lightgrey" stroke="black" points="383.71,-198 314.92,-198 314.92,-162 383.71,-162 383.71,-198"/>
+<text text-anchor="middle" x="349.32" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">Export-Only</text>
+</g>
+<!-- UI&#45;&gt;U3 -->
+<g id="edge17" class="edge">
+<title>UI-&gt;U3</title>
+<path fill="none" stroke="black" d="M228.16,-242.68C243.72,-231.57 264.52,-217.54 284.07,-207 290.58,-203.49 297.65,-200.12 304.63,-197.02"/>
+<polygon fill="black" stroke="black" points="305.53,-200.44 313.34,-193.28 302.77,-194.01 305.53,-200.44"/>
+</g>
+<!-- F1 -->
+<g id="node19" class="node">
+<title>F1</title>
+<polygon fill="lightgrey" stroke="black" points="376.32,-144 322.32,-144 322.32,-108 376.32,-108 376.32,-144"/>
+<text text-anchor="middle" x="349.32" y="-123" font-family="Helvetica,sans-Serif" font-size="10.00">None</text>
+</g>
+<!-- Feedback&#45;&gt;F1 -->
+<g id="edge18" class="edge">
+<title>Feedback-&gt;F1</title>
+<path fill="none" stroke="black" d="M243.11,-106.38C264.2,-110.31 290.01,-115.13 310.79,-119"/>
+<polygon fill="black" stroke="black" points="310.1,-122.43 320.57,-120.83 311.38,-115.55 310.1,-122.43"/>
+</g>
+<!-- F2 -->
+<g id="node20" class="node">
+<title>F2</title>
+<polygon fill="lightgrey" stroke="black" points="404.01,-90 294.63,-90 294.63,-54 404.01,-54 404.01,-90"/>
+<text text-anchor="middle" x="349.32" y="-69" font-family="Helvetica,sans-Serif" font-size="10.00">Aggregate Telemetry</text>
+</g>
+<!-- Feedback&#45;&gt;F2 -->
+<g id="edge19" class="edge">
+<title>Feedback-&gt;F2</title>
+<path fill="none" stroke="black" d="M243.11,-91.62C255.41,-89.33 269.31,-86.74 282.88,-84.21"/>
+<polygon fill="black" stroke="black" points="283.48,-87.65 292.67,-82.38 282.2,-80.77 283.48,-87.65"/>
+</g>
+<!-- F3 -->
+<g id="node21" class="node">
+<title>F3</title>
+<polygon fill="lightgrey" stroke="black" points="407.9,-36 290.73,-36 290.73,0 407.9,0 407.9,-36"/>
+<text text-anchor="middle" x="349.32" y="-15" font-family="Helvetica,sans-Serif" font-size="10.00">User-linked Adaptation</text>
+</g>
+<!-- Feedback&#45;&gt;F3 -->
+<g id="edge20" class="edge">
+<title>Feedback-&gt;F3</title>
+<path fill="none" stroke="black" d="M228.16,-80.68C243.72,-69.57 264.52,-55.54 284.07,-45 286.41,-43.74 288.82,-42.5 291.27,-41.28"/>
+<polygon fill="black" stroke="black" points="292.6,-44.52 300.13,-37.07 289.6,-38.2 292.6,-44.52"/>
+</g>
+</g>
+</svg>
