@@ -11,3 +11,4 @@ This section collects supplementary material, extended analysis, and design refl
 - **Appendix A** is the transcript of GPT-4's logical check of Veritassium's “Why Democracy Is Mathematically Impossible" video.
 - **Appendix B** is the transcript of GPT-4's logical check of a few posts on Reddit CMV on Local vs National Politics.
 - **Appendix C** discusses the challenges and limitations of using user feedback to improve the system.
+- **Appendix D** presents a structured view of the FallacyTag architecture as a product line architecture (PLA)
