@@ -28,7 +28,8 @@ Sections are being released incrementally. So far, the following are available:
 - ✅ 5: Mediums, Modalities and Fit
 - ✅ 6: How It Works
 - ✅ 7: Is It Feasible?
-- ⏳ Sections 8–10: Coming soon  
+- ✅ 8: Staying Honest at the Edges
+- ⏳ Sections 9, 10: Coming soon  
 
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
 
