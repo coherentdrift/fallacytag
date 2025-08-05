@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "4. FallacyTag: A Gentle Loop for Sharper Thinking"
+title: "4. Definitin and Demo"
 nav_order: 5
 ---
 
-## 4. FallacyTag: A Gentle Loop for Sharper Thinking
+## 4. Definitin and Demo
 {: .no_toc }
 
 ## Table of Contents
