@@ -26,7 +26,9 @@ Sections are being released incrementally. So far, the following are available:
 - ✅ 3: Scaffolded Intelligence: How LLMs Can Support Better Reasoning
 - ✅ 4: FallacyTag: A Gentle Loop for Sharper Thinking
 - ✅ 5: Mediums, Modalities and Fit
-- ⏳ Sections 6–10: Coming soon  
+- ✅ 6: How It Works
+- ✅ 7: Is It Feasible?
+- ⏳ Sections 8–10: Coming soon  
 
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
 
