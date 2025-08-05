@@ -135,6 +135,8 @@ Keep tags private by default. If shared, make tagging visibility part of partici
 
 ![Staying honest at the edges](/fallacytag/assets/images/8%20-%20Staying%20Honest%20at%20the%20Edges.svg)
 
+This section methodically aligns design implications with FallacyTag's core mission of reflection over adjudication, and proposes principled ways to navigate interpretive ambiguity, user perception, privacy, and social misuse. However, the assessment also acknowledges that many of these "edges" are managed rather than fully solved. The efficacy of FallacyTag's proposed solutions ultimately depends heavily on user adoption, accurate interpretation, and the willingness of communities to foster norms that prioritize constructive reasoning over adversarial engagement, a social challenge that we view as conditional in general public contexts (see [Section 7.3](/fallacytag/pages/07-feasibility/#73-social-feasibility-between-usefulness-and-blowback) and [Appenix C](fallacytag/pages/appendices/appendix-c/)).
+
 ---
 
 FallacyTag’s legitimacy rests on respecting constraints—interpretive, social, and perceptual. Yet even a carefully bounded tool raises an important question: When is it actually worth deploying? Constraints alone don’t answer that; they only frame the boundaries of possibility. Next, we propose a structured way to determine which contexts genuinely invite FallacyTag—and which are better left untouched.
