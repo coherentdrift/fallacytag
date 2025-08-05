@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "3. Scaffolded Intelligence: How LLMs Can Support Better Reasoning"
+title: "3. How LLMs Can Support Better Reasoning"
 nav_order: 4
 ---
 
-## 3. Scaffolded Intelligence: How LLMs Can Support Better Reasoning
+## 3. How LLMs Can Support Better Reasoning
 {: .no_toc }
 
 ## Table of Contents
