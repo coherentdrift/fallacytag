@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="619pt" height="361pt" viewBox="0.00 0.00 619.33 361.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 357)">
+<title>Section8Summary</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-357 615.33,-357 615.33,4 -4,4"/>
+<!-- Core -->
+<g id="node1" class="node">
+<title>Core</title>
+<ellipse fill="#e8f5e9" stroke="#7f7f7f" stroke-width="2" cx="100.82" cy="-176" rx="100.82" ry="24.32"/>
+<text text-anchor="middle" x="100.82" y="-179.3" font-family="Helvetica,sans-Serif" font-size="11.00">Section 8: Staying Honest</text>
+<text text-anchor="middle" x="100.82" y="-166.1" font-family="Helvetica,sans-Serif" font-size="11.00">at the Edges</text>
+</g>
+<!-- A1 -->
+<g id="node2" class="node">
+<title>A1</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M381.71,-353C381.71,-353 276.32,-353 276.32,-353 270.32,-353 264.32,-347 264.32,-341 264.32,-341 264.32,-309 264.32,-309 264.32,-303 270.32,-297 276.32,-297 276.32,-297 381.71,-297 381.71,-297 387.71,-297 393.71,-303 393.71,-309 393.71,-309 393.71,-341 393.71,-341 393.71,-347 387.71,-353 381.71,-353"/>
+<text text-anchor="middle" x="329.01" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00">8.1 Interpretive Ambiguity</text>
+<text text-anchor="middle" x="329.01" y="-328" font-family="Helvetica,sans-Serif" font-size="10.00">— Borderline reasoning</text>
+<text text-anchor="middle" x="329.01" y="-316" font-family="Helvetica,sans-Serif" font-size="10.00">— Cultural divergence</text>
+<text text-anchor="middle" x="329.01" y="-304" font-family="Helvetica,sans-Serif" font-size="10.00">— Genre variation</text>
+</g>
+<!-- Core&#45;&gt;A1 -->
+<g id="edge1" class="edge">
+<title>Core-&gt;A1</title>
+<path fill="none" stroke="black" d="M131.19,-199.46C158.15,-220.55 199.56,-251.83 237.63,-276 245.65,-281.09 254.23,-286.18 262.8,-291.05"/>
+<polygon fill="black" stroke="black" points="261.07,-294.09 271.51,-295.91 264.49,-287.98 261.07,-294.09"/>
+</g>
+<!-- A2 -->
+<g id="node3" class="node">
+<title>A2</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M405.34,-254C405.34,-254 252.69,-254 252.69,-254 246.69,-254 240.69,-248 240.69,-242 240.69,-242 240.69,-210 240.69,-210 240.69,-204 246.69,-198 252.69,-198 252.69,-198 405.34,-198 405.34,-198 411.34,-198 417.34,-204 417.34,-210 417.34,-210 417.34,-242 417.34,-242 417.34,-248 411.34,-254 405.34,-254"/>
+<text text-anchor="middle" x="329.01" y="-241" font-family="Helvetica,sans-Serif" font-size="10.00">8.2 User Experience and Perception</text>
+<text text-anchor="middle" x="329.01" y="-229" font-family="Helvetica,sans-Serif" font-size="10.00">— Fallacy inflation</text>
+<text text-anchor="middle" x="329.01" y="-217" font-family="Helvetica,sans-Serif" font-size="10.00">— Misread intent</text>
+<text text-anchor="middle" x="329.01" y="-205" font-family="Helvetica,sans-Serif" font-size="10.00">— Need for user control</text>
+</g>
+<!-- Core&#45;&gt;A2 -->
+<g id="edge2" class="edge">
+<title>Core-&gt;A2</title>
+<path fill="none" stroke="black" d="M176.19,-192.44C193.15,-196.19 211.42,-200.23 229.22,-204.16"/>
+<polygon fill="black" stroke="black" points="228.22,-207.53 238.74,-206.27 229.73,-200.69 228.22,-207.53"/>
+</g>
+<!-- A3 -->
+<g id="node4" class="node">
+<title>A3</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M386.16,-155C386.16,-155 271.87,-155 271.87,-155 265.87,-155 259.87,-149 259.87,-143 259.87,-143 259.87,-111 259.87,-111 259.87,-105 265.87,-99 271.87,-99 271.87,-99 386.16,-99 386.16,-99 392.16,-99 398.16,-105 398.16,-111 398.16,-111 398.16,-143 398.16,-143 398.16,-149 392.16,-155 386.16,-155"/>
+<text text-anchor="middle" x="329.01" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00">8.3 Privacy and Consent</text>
+<text text-anchor="middle" x="329.01" y="-130" font-family="Helvetica,sans-Serif" font-size="10.00">— User awareness</text>
+<text text-anchor="middle" x="329.01" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">— Data boundaries</text>
+<text text-anchor="middle" x="329.01" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">— Institutional transparency</text>
+</g>
+<!-- Core&#45;&gt;A3 -->
+<g id="edge3" class="edge">
+<title>Core-&gt;A3</title>
+<path fill="none" stroke="black" d="M177.14,-159.68C200,-154.73 225.19,-149.27 248.33,-144.26"/>
+<polygon fill="black" stroke="black" points="248.99,-147.7 258.02,-142.16 247.51,-140.86 248.99,-147.7"/>
+</g>
+<!-- A4 -->
+<g id="node5" class="node">
+<title>A4</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M408.39,-56C408.39,-56 249.63,-56 249.63,-56 243.63,-56 237.63,-50 237.63,-44 237.63,-44 237.63,-12 237.63,-12 237.63,-6 243.63,0 249.63,0 249.63,0 408.39,0 408.39,0 414.39,0 420.39,-6 420.39,-12 420.39,-12 420.39,-44 420.39,-44 420.39,-50 414.39,-56 408.39,-56"/>
+<text text-anchor="middle" x="329.01" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00">8.4 Social Misuse and Weaponization</text>
+<text text-anchor="middle" x="329.01" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">— Mockery</text>
+<text text-anchor="middle" x="329.01" y="-19" font-family="Helvetica,sans-Serif" font-size="10.00">— Point-scoring</text>
+<text text-anchor="middle" x="329.01" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">— Soft censorship</text>
+</g>
+<!-- Core&#45;&gt;A4 -->
+<g id="edge4" class="edge">
+<title>Core-&gt;A4</title>
+<path fill="none" stroke="black" d="M132.1,-152.54C159.16,-131.98 200.19,-101.75 237.63,-78 246.2,-72.57 255.39,-67.1 264.51,-61.87"/>
+<polygon fill="black" stroke="black" points="266.05,-65.02 273.03,-57.05 262.6,-58.93 266.05,-65.02"/>
+</g>
+<!-- Design1 -->
+<g id="node6" class="node">
+<title>Design1</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M576.83,-254C576.83,-254 490.89,-254 490.89,-254 484.89,-254 478.89,-248 478.89,-242 478.89,-242 478.89,-230 478.89,-230 478.89,-224 484.89,-218 490.89,-218 490.89,-218 576.83,-218 576.83,-218 582.83,-218 588.83,-224 588.83,-230 588.83,-230 588.83,-242 588.83,-242 588.83,-248 582.83,-254 576.83,-254"/>
+<text text-anchor="middle" x="533.86" y="-239" font-family="Helvetica,sans-Serif" font-size="10.00">Tag softly</text>
+<text text-anchor="middle" x="533.86" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">(Hedging, local cues)</text>
+</g>
+<!-- A1&#45;&gt;Design1 -->
+<g id="edge5" class="edge">
+<title>A1-&gt;Design1</title>
+<path fill="none" stroke="black" d="M394.2,-296.84C421.94,-284.67 454.01,-270.6 480.31,-259.06"/>
+<polygon fill="black" stroke="black" points="481.69,-262.27 489.45,-255.05 478.88,-255.86 481.69,-262.27"/>
+</g>
+<!-- Design2 -->
+<g id="node7" class="node">
+<title>Design2</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M593.35,-343C593.35,-343 474.37,-343 474.37,-343 468.37,-343 462.37,-337 462.37,-331 462.37,-331 462.37,-319 462.37,-319 462.37,-313 468.37,-307 474.37,-307 474.37,-307 593.35,-307 593.35,-307 599.35,-307 605.35,-313 605.35,-319 605.35,-319 605.35,-331 605.35,-331 605.35,-337 599.35,-343 593.35,-343"/>
+<text text-anchor="middle" x="533.86" y="-328" font-family="Helvetica,sans-Serif" font-size="10.00">Tune context</text>
+<text text-anchor="middle" x="533.86" y="-316" font-family="Helvetica,sans-Serif" font-size="10.00">(Genre + Community norms)</text>
+</g>
+<!-- A1&#45;&gt;Design2 -->
+<g id="edge6" class="edge">
+<title>A1-&gt;Design2</title>
+<path fill="none" stroke="black" d="M394.2,-325C412.16,-325 431.93,-325 450.78,-325"/>
+<polygon fill="black" stroke="black" points="450.54,-328.5 460.54,-325 450.54,-321.5 450.54,-328.5"/>
+</g>
+<!-- A2&#45;&gt;Design1 -->
+<g id="edge7" class="edge">
+<title>A2-&gt;Design1</title>
+<path fill="none" stroke="black" d="M417.81,-230.33C434.44,-231.15 451.56,-231.99 467.36,-232.77"/>
+<polygon fill="black" stroke="black" points="466.92,-236.25 477.08,-233.25 467.27,-229.26 466.92,-236.25"/>
+</g>
+<!-- Design3 -->
+<g id="node8" class="node">
+<title>Design3</title>
+<path fill="#f8f8f8" stroke="#7f7f7f" d="M599.33,-145C599.33,-145 468.39,-145 468.39,-145 462.39,-145 456.39,-139 456.39,-133 456.39,-133 456.39,-121 456.39,-121 456.39,-115 462.39,-109 468.39,-109 468.39,-109 599.33,-109 599.33,-109 605.33,-109 611.33,-115 611.33,-121 611.33,-121 611.33,-133 611.33,-133 611.33,-139 605.33,-145 599.33,-145"/>
+<text text-anchor="middle" x="533.86" y="-130" font-family="Helvetica,sans-Serif" font-size="10.00">Prioritize trust</text>
+<text text-anchor="middle" x="533.86" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">(Opt-in, transparency, restraint)</text>
+</g>
+<!-- A2&#45;&gt;Design3 -->
+<g id="edge8" class="edge">
+<title>A2-&gt;Design3</title>
+<path fill="none" stroke="black" d="M388.14,-197.63C418.8,-182.67 455.95,-164.54 484.93,-150.39"/>
+<polygon fill="black" stroke="black" points="486.4,-153.57 493.85,-146.04 483.33,-147.28 486.4,-153.57"/>
+</g>
+<!-- A3&#45;&gt;Design3 -->
+<g id="edge9" class="edge">
+<title>A3-&gt;Design3</title>
+<path fill="none" stroke="black" d="M398.41,-127C413.31,-127 429.28,-127 444.82,-127"/>
+<polygon fill="black" stroke="black" points="444.53,-130.5 454.53,-127 444.53,-123.5 444.53,-130.5"/>
+</g>
+<!-- A4&#45;&gt;Design3 -->
+<g id="edge10" class="edge">
+<title>A4-&gt;Design3</title>
+<path fill="none" stroke="black" d="M388.14,-56.37C418.8,-71.33 455.95,-89.46 484.93,-103.61"/>
+<polygon fill="black" stroke="black" points="483.33,-106.72 493.85,-107.96 486.4,-100.43 483.33,-106.72"/>
+</g>
+</g>
+</svg>
