@@ -6,7 +6,6 @@ nav_order: 6
 
 ## 5. Mediums, Modalities and Fit
 **Designing FallacyTag for Text, Audio, and Video**
-
 {: .no_toc }
 
 ## Table of Contents
