@@ -121,11 +121,7 @@ Strong privacy controls help build trust, but they aren’t enough. Even well-in
 
 ### 8.4 Social Misuse and Weaponization
 
-Even neutral logic cues can be co-opted for mockery, social scoring, or soft censorship—especially in ideological or high-conflict settings. This turns reflection into performance, and tags into tools of control.
-
-#### Weaponization of tags
-
-Even neutral logic cues can be co-opted for mockery, point-scoring, or implicit censorship—especially in ideological or competitive environments. Without guardrails, tags become performative tools, not reasoning aids.
+Even neutral logic cues can be co-opted for mockery, point-scoring, or soft censorship—especially in ideological or high-conflict environments. Without guardrails, tags risk becoming performative tools of control rather than aids to reasoning.
 
 ##### Design implication
 
