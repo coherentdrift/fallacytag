@@ -12,3 +12,5 @@ This section collects supplementary material, extended analysis, and design refl
 - **Appendix B** is the transcript of GPT-4's logical check of a few posts on Reddit CMV on Local vs National Politics.
 - **Appendix C** discusses the challenges and limitations of using user feedback to improve the system.
 - **Appendix D** presents a structured view of the FallacyTag architecture as a product line architecture (PLA)
+- **Appendix E** explains why the seven scorecard dimensions are scored independently and weighted equally. It discusses the risks of double-counting and meta-debates, acknowledges natural correlations, and outlines when more sophisticated weighting might be justified in future deployments.
+- 
