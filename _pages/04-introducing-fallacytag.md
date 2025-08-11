@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "4. Definitin and Demo"
+title: "4. The Proposal - What FallacyTag Might Be 🎬"
 nav_order: 5
 ---
 
-## 4. Definitin and Demo
+## 4. The Proposal - What FallacyTag Might Be 🎬
 {: .no_toc }
 
 ## Table of Contents

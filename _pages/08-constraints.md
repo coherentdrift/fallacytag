@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 8. Staying Honest at the Edges
+title: 8. Design Constraints and Ethical Edges
 nav_order: 9
 ---
 
-## 8. Staying Honest at the Edges
+## 8. Design Constraints and Ethical Edges
 
 {: .no_toc }
 

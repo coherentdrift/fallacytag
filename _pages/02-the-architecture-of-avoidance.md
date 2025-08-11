@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 2. The Architecture of Avoidance
+title: 2. The Societal Blind Spot - We See the Arguments, Not the Reasoning
 nav_order: 3
 ---
-## 2. The Architecture of Avoidance
+## 2. The Societal Blind Spot - We See the Arguments, Not the Reasoning
 {: .no_toc }
 
 ## Table of Contents
