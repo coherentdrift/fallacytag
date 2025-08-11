@@ -29,7 +29,8 @@ Sections are being released incrementally. So far, the following are available:
 - ✅ 6: How It Works
 - ✅ 7: Is It Feasible?
 - ✅ 8: Staying Honest at the Edges
-- ⏳ Sections 9, 10: Coming soon  
+- ✅ 9: Conditional Case: When This Is Worth Building
+- ⏳ Section 10: Coming soon  
 
 Check the sidebar for what’s currently available, or follow the project on Substack for updates.
 
