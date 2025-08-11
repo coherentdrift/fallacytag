@@ -14,7 +14,7 @@ nav_order: 5
 - TOC
 {:toc}
 
-The seven dimensions in the scorecard are deliberately scored independently and given equal weight in the overall total. This choice reflects a trade-off between methodological purity and practical usability.
+The seven dimensions in the [scorecard](/fallacytag/pages/09-worth-building/#93-the-scorecard) are deliberately scored independently and given equal weight in the overall total. This choice reflects a trade-off between methodological purity and practical usability.
 
 ### Why Independence Matters
 
