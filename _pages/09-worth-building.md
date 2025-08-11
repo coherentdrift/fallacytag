@@ -25,15 +25,11 @@ Physicist Paul Dirac famously hated small talk. At a dinner party, someone once 
 
 Now, if your spidey sense is tingling—good. The same chatbot that dreamed up this exchange also argued strenuously against giving you another manipulative instrument: a scorecard. It kept proposing softer names (“Fit Gauge,” “Readiness Lens”), replacing numbers with emojis, and otherwise trying to protect you from the risk of being misled—risks like:
 
-False precision – numbers look more objective than they are.
-
-Pass/fail thinking – totals invite binary “good/bad” judgments.
-
-Aggregate blindness – a single score can hide very different underlying patterns.
-
-Weaponization – numbers get cherry-picked to justify decisions.
-
-Shortcutting nuance – people skip the explanation and look at the score.
+- False precision – numbers look more objective than they are.
+- Pass/fail thinking – totals invite binary “good/bad” judgments.
+- Aggregate blindness – a single score can hide very different underlying patterns.
+- Weaponization – numbers get cherry-picked to justify decisions.
+- Shortcutting nuance – people skip the explanation and look at the score.
 
 And yet here we are.
 
