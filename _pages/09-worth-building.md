@@ -35,7 +35,7 @@ And yet here we are.
 
 ![Dirac reading a scorecard](/fallacytag/assets/images/9%20-%20Dirac%20reviewing%20a%20scorecard.png)
 
-Why stoop so low? Because you probably want it. Your supervisor (if you are lucky to have one) almost certainly does. And, deep down, I’m hoping the scorecard spits out something unexpected—something that makes you think. I trust you to see through the emojis, the naming gymnastics, and the polite evasions. I also trust you not to harm yourself with it.
+Why stoop so low? Because you probably want it. Your supervisor (if you are lucky to have one) almost certainly does. And, deep down, I’m hoping the scorecard spits out something unexpected—something that makes you think. I trust that you would have seen through the emojis, the naming gymnastics, and the polite evasions. I also trust you not to harm yourself with it.
 
 ### 9.2 What the Scorecard Is and Isn’t
 
