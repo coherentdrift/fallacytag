@@ -21,7 +21,7 @@ And yes, that framework involves a scorecard.
 
 ### 9.1 Dirac, Scorecards, and the Dangers of Numbers
 
-Physicist Paul Dirac famously hated small talk. At a dinner party, someone once teased him: “We hear you don’t talk much, Dr. Dirac. Why is that?” Dirac replied: “Because words are dangerous. They can be misused.”
+Paul Dirac, one of the founders of quantum mechanics, famously hated small talk. At a dinner party, someone once teased him: “We hear you don’t talk much, Dr. Dirac. Why is that?” Dirac replied: “Because words are dangerous. They can be misused.”
 
 Now, if your spidey sense is tingling—good. The same chatbot that dreamed up this exchange also argued strenuously against giving you another manipulative instrument: a scorecard. It kept proposing softer names (“Fit Gauge,” “Readiness Lens”), replacing numbers with emojis, and otherwise trying to protect you from the risk of being misled—risks like:
 
