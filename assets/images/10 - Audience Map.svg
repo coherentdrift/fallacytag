@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600pt" height="451pt" viewBox="0.00 0.00 600.38 451.10">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 447.1)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-447.1 596.38,-447.1 596.38,4 -4,4"/>
+<!-- core -->
+<g id="node1" class="node">
+<title>core</title>
+<path fill="#ffffff" stroke="black" stroke-width="1.1" d="M242.43,-253.05C242.43,-253.05 12,-253.05 12,-253.05 6,-253.05 0,-247.05 0,-241.05 0,-241.05 0,-202.05 0,-202.05 0,-196.05 6,-190.05 12,-190.05 12,-190.05 242.43,-190.05 242.43,-190.05 248.43,-190.05 254.43,-196.05 254.43,-202.05 254.43,-202.05 254.43,-241.05 254.43,-241.05 254.43,-247.05 248.43,-253.05 242.43,-253.05"/>
+<text text-anchor="start" x="74.34" y="-240.15" font-family="Helvetica,sans-Serif" font-size="11.00">      </text>
+<text text-anchor="start" x="92.68" y="-240.15" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Core constraints</text>
+<text text-anchor="start" x="8" y="-229.15" font-family="Helvetica,sans-Serif" font-size="11.00">      • Interpretability over expressive power (6.2)</text>
+<text text-anchor="start" x="15.95" y="-218.15" font-family="Helvetica,sans-Serif" font-size="11.00">      • Reflection ↔ Enforcement drift (6.2/7.5)</text>
+<text text-anchor="start" x="30.31" y="-207.15" font-family="Helvetica,sans-Serif" font-size="11.00">      • Diagnostic feedback only (App C)</text>
+<text text-anchor="start" x="17.78" y="-196.15" font-family="Helvetica,sans-Serif" font-size="11.00">      • Low-cost prompts / nudges (7.2/3.3)    </text>
+</g>
+<!-- edu -->
+<g id="node2" class="node">
+<title>edu</title>
+<ellipse fill="#e9f3ff" stroke="#9cc7ff" stroke-width="1.2" cx="444.91" cy="-398.55" rx="147.47" ry="44.55"/>
+<text text-anchor="start" x="348.63" y="-417.15" font-family="Helvetica,sans-Serif" font-size="11.00">    </text>
+<text text-anchor="start" x="360.85" y="-417.15" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Educators</text>
+<text text-anchor="start" x="348.63" y="-406.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Start manual → then automate</text>
+<text text-anchor="start" x="348.63" y="-395.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Tags = low-cost prompts (7.2)</text>
+<text text-anchor="start" x="348.63" y="-384.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Aim for productive discomfort (3.3)</text>
+<text text-anchor="start" x="371.24" y="-373.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Attend to pluralism (8.1)  </text>
+</g>
+<!-- core&#45;&gt;edu -->
+<g id="edge1" class="edge">
+<title>core-&gt;edu</title>
+<path fill="none" stroke="#c7ccd2" stroke-width="1.2" d="M168.26,-253.36C201.54,-278.83 250.81,-314.32 297.43,-339.55 311.39,-347.1 326.53,-354.26 341.6,-360.81"/>
+<polygon fill="#c7ccd2" stroke="#c7ccd2" stroke-width="1.2" points="340.4,-362.96 347.8,-363.46 342.33,-358.45 340.4,-362.96"/>
+</g>
+<!-- bld -->
+<g id="node3" class="node">
+<title>bld</title>
+<ellipse fill="#eaf8ee" stroke="#a7e0b8" stroke-width="1.2" cx="444.91" cy="-280.55" rx="147.48" ry="44.55"/>
+<text text-anchor="start" x="348.62" y="-299.15" font-family="Helvetica,sans-Serif" font-size="11.00">    </text>
+<text text-anchor="start" x="360.85" y="-299.15" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Builders</text>
+<text text-anchor="start" x="348.62" y="-288.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Use PLA (Sec 6, App D) or adapt</text>
+<text text-anchor="start" x="348.62" y="-277.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Start small; test in noisy envs (7.1)</text>
+<text text-anchor="start" x="348.62" y="-266.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Feasibility (7) + Scorecard (9)</text>
+<text text-anchor="start" x="353.2" y="-255.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Feedback is diagnostic (App C)  </text>
+</g>
+<!-- core&#45;&gt;bld -->
+<g id="edge2" class="edge">
+<title>core-&gt;bld</title>
+<path fill="none" stroke="#c7ccd2" stroke-width="1.2" d="M254.8,-245.21C273.02,-248.61 291.82,-252.12 310.18,-255.56"/>
+<polygon fill="#c7ccd2" stroke="#c7ccd2" stroke-width="1.2" points="309.46,-257.91 316.79,-256.79 310.36,-253.1 309.46,-257.91"/>
+</g>
+<!-- dsn -->
+<g id="node4" class="node">
+<title>dsn</title>
+<ellipse fill="#fff3e5" stroke="#ffc98a" stroke-width="1.2" cx="444.91" cy="-162.55" rx="141.87" ry="44.55"/>
+<text text-anchor="start" x="352.59" y="-181.15" font-family="Helvetica,sans-Serif" font-size="11.00">    </text>
+<text text-anchor="start" x="364.81" y="-181.15" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Designers</text>
+<text text-anchor="start" x="352.59" y="-170.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Clarity w/o intimidation</text>
+<text text-anchor="start" x="352.59" y="-159.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Quick dismiss/collapse</text>
+<text text-anchor="start" x="352.59" y="-148.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Contextual tone; cross-cultural fit</text>
+<text text-anchor="start" x="388.36" y="-137.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Nudge craft (3.3)  </text>
+</g>
+<!-- core&#45;&gt;dsn -->
+<g id="edge3" class="edge">
+<title>core-&gt;dsn</title>
+<path fill="none" stroke="#c7ccd2" stroke-width="1.2" d="M254.8,-197.89C274.15,-194.27 294.15,-190.54 313.58,-186.9"/>
+<polygon fill="#c7ccd2" stroke="#c7ccd2" stroke-width="1.2" points="313.95,-189.33 320.38,-185.63 313.05,-184.51 313.95,-189.33"/>
+</g>
+<!-- crt -->
+<g id="node5" class="node">
+<title>crt</title>
+<ellipse fill="#fceaf2" stroke="#f5a7c4" stroke-width="1.2" cx="444.91" cy="-44.55" rx="144.9" ry="44.55"/>
+<text text-anchor="start" x="350.44" y="-63.15" font-family="Helvetica,sans-Serif" font-size="11.00">    </text>
+<text text-anchor="start" x="362.67" y="-63.15" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="11.00">Critics</text>
+<text text-anchor="start" x="350.44" y="-52.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Transparency; scope discipline</text>
+<text text-anchor="start" x="350.44" y="-41.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Interpretive ambiguity (8.1)</text>
+<text text-anchor="start" x="350.44" y="-30.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Not fact-checker/moderator (7.5)</text>
+<text text-anchor="start" x="350.44" y="-19.15" font-family="Helvetica,sans-Serif" font-size="11.00">    – Diagnostic, not adaptive (App C)  </text>
+</g>
+<!-- core&#45;&gt;crt -->
+<g id="edge4" class="edge">
+<title>core-&gt;crt</title>
+<path fill="none" stroke="#c7ccd2" stroke-width="1.2" d="M168.26,-189.73C201.54,-164.27 250.81,-128.77 297.43,-103.55 311.6,-95.88 326.98,-88.63 342.27,-82"/>
+<polygon fill="#c7ccd2" stroke="#c7ccd2" stroke-width="1.2" points="343.1,-84.31 348.58,-79.3 341.18,-79.8 343.1,-84.31"/>
+</g>
+</g>
+</svg>
