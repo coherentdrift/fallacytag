@@ -23,7 +23,7 @@ The nudge is quiet, contextual, and optional. You’re free to ignore it. Or to 
 ### 4.1 Demo: What You’re Seeing
 
 <video width="600" controls controls autoplay muted loop>
-  <source src="{{ '/assets/fallacytag_demo.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/demo/fallacytag_demo.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
