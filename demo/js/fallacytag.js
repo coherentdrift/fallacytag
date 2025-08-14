@@ -117,6 +117,28 @@ if (highlightId) {
 const theme = new URLSearchParams(window.location.search).get("theme");
 if (theme) {
   document.body.setAttribute("data-theme", theme);
+} else {
+  document.body.removeAttribute("data-theme");
+}
+
+// Reflect theme in dropdown and make it interactive
+const themeSelector = document.getElementById("theme-select");
+if (themeSelector) {
+  if (theme) themeSelector.value = theme;
+
+  themeSelector.addEventListener("change", () => {
+    const newTheme = themeSelector.value;
+    if (newTheme) {
+      document.body.setAttribute("data-theme", newTheme);
+    } else {
+      document.body.removeAttribute("data-theme");
+    }
+
+    // Update the URL without reloading
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set("theme", newTheme);
+    window.history.replaceState({}, "", newUrl);
+  });
 }
 
 // Suppress context for embed mode
